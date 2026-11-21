@@ -10,18 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #0a0a0f;
-      --bg-card: #14141c;
-      --bg-card-hover: #1c1c2a;
-      --ink: #f5f2ef;
-      --ink-muted: #a8a39a;
-      --ink-dim: #7a746c;
-      --purple: #7c3aed;
-      --purple-hover: #6d28d9;
-      --purple-light: #c4b5fd;
-      --purple-soft: rgba(124, 58, 237, 0.12);
-      --accent: #f5f2ef;
-      --line: #2a2a38;
+      --bg: #121216;
+      --bg-card: #1C1C24;
+      --bg-card-hover: #24242E;
+      --ink: #F4F4F6;
+      --ink-muted: #9CA3AF;
+      --ink-dim: #6B7280;
+      --purple: #6D28D9;
+      --purple-hover: #7C3AED;
+      --purple-light: #A78BFA;
+      --purple-soft: rgba(109, 40, 217, 0.14);
+      --gold: #F59E0B;
+      --gold-soft: rgba(245, 158, 11, 0.14);
+      --gold-light: #FBBF24;
+      --accent: #F4F4F6;
+      --line: #2A2A38;
       --font-serif: 'Playfair Display', 'Times New Roman', serif;
       --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       --max-width: 820px;
@@ -99,7 +102,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(120% 80% at 50% 0%, rgba(124, 58, 237, 0.10) 0%, transparent 60%);
+      background: radial-gradient(120% 80% at 50% 0%, rgba(109, 40, 217, 0.10) 0%, transparent 60%);
       pointer-events: none;
     }
 
@@ -120,7 +123,7 @@
       width: 600px;
       height: 600px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(124, 58, 237, 0.25) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(167, 139, 250, 0.15) 0%, transparent 70%);
       pointer-events: none;
       z-index: 0;
     }
@@ -141,7 +144,7 @@
       margin-bottom: 1rem;
     }
 
-    .hero h1 .amp {
+    .hero h1 .sun {
       display: block;
       font-size: 0.35em;
       font-family: var(--font-serif);
@@ -149,6 +152,29 @@
       color: var(--purple-light);
       margin-top: 0.25rem;
       letter-spacing: 0.08em;
+      position: relative;
+    }
+
+    .hero h1 .sun::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 60%;
+      height: 60%;
+      border-radius: 50%;
+      background: radial-gradient(circle, #FBBF24 0%, transparent 70%);
+      transform: translate(-50%, -50%);
+      box-shadow:
+        0 0 20px rgba(245, 158, 11, 0.6),
+        0 0 40px rgba(245, 158, 11, 0.3),
+        0 0 80px rgba(245, 158, 11, 0.1);
+      animation: sun-glow 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes sun-glow {
+      0% { box-shadow: 0 0 15px rgba(245, 158, 11, 0.4), 0 0 30px rgba(245, 158, 11, 0.2), 0 0 60px rgba(245, 158, 11, 0.08); }
+      100% { box-shadow: 0 0 25px rgba(245, 158, 11, 0.7), 0 0 50px rgba(245, 158, 11, 0.35), 0 0 100px rgba(245, 158, 11, 0.15); }
     }
 
     .hero p {
@@ -181,6 +207,7 @@
     .badge:hover {
       border-color: var(--purple);
       background: var(--bg-card-hover);
+      color: var(--gold);
     }
 
     .intro {
@@ -358,24 +385,35 @@
 
   <section class="hero" id="top">
     <div class="hero-img">
-      <div class="glow"></div>
       <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#7c3aed"/>
-            <stop offset="100%" stop-color="#6d28d9"/>
-          </linearGradient>
+          <radialGradient id="sun-grad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FBBF24"/>
+            <stop offset="100%" stop-color="#F59E0B"/>
+          </radialGradient>
+          <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#1E1E2A"/>
+            <stop offset="100%" stop-color="#121216"/>
+          </radialGradient>
         </defs>
-        <circle cx="600" cy="150" r="200" fill="url(#g1)" opacity="0.2"/>
-        <circle cx="200" cy="450" r="150" fill="url(#g1)" opacity="0.15"/>
-        <rect x="250" y="150" width="300" height="200" rx="12" fill="url(#g1)" opacity="0.12"/>
-        <circle cx="400" cy="300" r="120" fill="rgba(124,58,237,0.3)"/>
+        <rect width="800" height="600" fill="url(#bg-grad)"/>
+        <circle cx="620" cy="170" r="180" fill="url(#sun-grad)" opacity="0.15"/>
+        <circle cx="200" cy="450" r="150" fill="url(#sun-grad)" opacity="0.10"/>
+        <rect x="250" y="150" width="300" height="200" rx="12" fill="url(#sun-grad)" opacity="0.08"/>
+        <circle cx="400" cy="300" r="120" fill="url(#sun-grad)" opacity="0.12"/>
+        <g opacity="0.4">
+          <circle cx="380" cy="280" r="4" fill="#FBBF24"/>
+          <circle cx="420" cy="320" r="4" fill="#FBBF24"/>
+          <circle cx="400" cy="300" r="6" fill="#F59E0B"/>
+          <circle cx="440" cy="280" r="4" fill="#FBBF24"/>
+          <circle cx="360" cy="320" r="4" fill="#FBBF24"/>
+        </g>
       </svg>
     </div>
     <div class="hero-inner">
       <h1>
         Surya Narayanan
-        <span class="amp">&amp;</span>
+        <span class="sun">&amp;</span>
       </h1>
       <p>Fractional CMO — building, operating, and transferring marketing excellence for startups and scale-ups.
       Currently CMO at Cheerio AI and Sunbeam Ventures; mentor through NSRCEL.</p>
