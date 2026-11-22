@@ -3,502 +3,3159 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Surya Narayanan — Fractional CMO</title>
-  <meta name="description" content="Personal site of Surya Narayanan — fractional CMO, mentor, and growth architect: Cheerio AI, Sunbeam Ventures, and NSRCEL." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Apex Pragmatika | Fractional CMO (Build · Operate · Transfer) &amp; Owner P&amp;L Tools</title>
+  <meta name="description" content="Apex Pragmatika partners with business owners and 2nd-generation entrepreneurs to build, operate, and transfer a self-funding internal marketing P&L engine—plus interactive CAC Payback, True RoAS, and FCMO Governance tools." />
+  <meta name="keywords" content="Fractional CMO India, Build Operate Transfer Marketing, CAC Payback Calculator, True RoAS MER Calculator, FCMO Scorecard, Unit Economics Marketing, 2nd Generation Business Growth, Surya Narayanan, Apex Pragmatika, NSRCEL Mentor" />
+  <meta name="author" content="Surya Narayanan, Apex Pragmatika" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://heliosurya.github.io/" />
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Apex Pragmatika" />
+  <meta property="og:url" content="https://heliosurya.github.io/" />
+  <meta property="og:title" content="Apex Pragmatika — Scale Your Topline Without Surrendering Your Bottom Line" />
+  <meta property="og:description" content="Fractional CMO leadership built for business owners who measure in decades, not valuation rounds. We build, operate, and transfer an internal profit-compounding growth engine." />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Apex Pragmatika | Fractional CMO (Build · Operate · Transfer)" />
+  <meta name="twitter:description" content="Agencies optimize for ad spend and topline vanity. Apex Pragmatika builds, operates, and transfers an internal marketing P&L engine owned by your business." />
+
+  <!-- Theme Color & Inline SVG Peak-Margin Favicon -->
+  <meta name="theme-color" content="#121216" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121216'/%3E%3Cpath d='M13 50L32 16L51 50H42.5L32 31L21.5 50H13Z' fill='%23FFFFFF'/%3E%3Cpolygon points='32,8 37.5,17.5 32,23 26.5,17.5' fill='%23FBBF24'/%3E%3Cpolygon points='32,14 35.5,19 32,23 28.5,19' fill='%23F59E0B'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Space Grotesk (Headings), Inter (Body), JetBrains Mono (Tags & Metrics) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data: SEO + AEO (Answer Engine Optimization) + GEO (Generative Engine Optimization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://heliosurya.github.io/#organization",
+        "name": "Apex Pragmatika",
+        "url": "https://heliosurya.github.io/",
+        "email": "surya@heliosurya.github.io",
+        "founder": {
+          "@id": "https://heliosurya.github.io/#person"
+        },
+        "description": "Apex Pragmatika is a Fractional CMO and unit-economic growth advisory firm founded by Surya Narayanan. We partner with business owners and second-generation entrepreneurs to build, operate, and transfer internal marketing P&L engines that compound contribution margin and net profit.",
+        "areaServed": ["IN", "Global"],
+        "knowsAbout": [
+          "Fractional CMO Leadership",
+          "Build-Operate-Transfer Marketing Architecture",
+          "Unit Economics and Contribution Margin Growth",
+          "Behavioral Economics in Pricing and Conversion",
+          "B2B and Founder-Led Go-To-Market Strategy",
+          "AI-Assisted Marketing Operations"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://heliosurya.github.io/#person",
+        "name": "Surya Narayanan",
+        "jobTitle": "Founder & Fractional CMO",
+        "worksFor": {
+          "@id": "https://heliosurya.github.io/#organization"
+        },
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "Cheerio AI",
+            "roleName": "Chief Marketing Officer"
+          },
+          {
+            "@type": "Organization",
+            "name": "Sunbeam Ventures",
+            "roleName": "Chief Marketing Officer"
+          },
+          {
+            "@type": "Organization",
+            "name": "NSRCEL, Indian Institute of Management Bangalore (IIMB)",
+            "roleName": "Startup Mentor"
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/nsuryanarayanan/"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://heliosurya.github.io/#service",
+        "name": "Apex Pragmatika Fractional CMO & Growth Advisory",
+        "provider": {
+          "@id": "https://heliosurya.github.io/#organization"
+        },
+        "url": "https://heliosurya.github.io/",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Advisory, Operating & Speaking Engagements",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Fractional CMO (Build · Operate · Transfer)",
+                "description": "End-to-end strategic marketing leadership for founders and 2nd-generation business owners to audit unit economics, operate profitable acquisition channels, and transfer full internal ownership."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Conference Keynotes & Industry Panels",
+                "description": "Practitioner talks for founder conclaves and CXO summits on resolving the topline-versus-margin divide and behavioral economics in pricing."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Corporate Leadership Offsites",
+                "description": "Private on-site or virtual working sessions for boards and executive teams to stress-test funnel leaks and align sales and marketing around contribution margin."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "B-School & Incubator Growth Sessions",
+                "description": "Applied unit-economic GTM workshops and AI-native marketing architecture sessions for MBA cohorts, faculty, and startup incubators."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://heliosurya.github.io/#tools-app",
+        "name": "Apex Pragmatika Owner Unit-Economics & P&L Reporting Workbench",
+        "url": "https://heliosurya.github.io/#tools",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires JavaScript",
+        "author": {
+          "@id": "https://heliosurya.github.io/#person"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "featureList": [
+          "CAC Payback Period, 24-Month Honest LTV & Three-Lever Sensitivity Simulator",
+          "Contribution-Margin CM2, True nCAC & Marginal RoAS (mROAS / MER) Calculator",
+          "FCMO Growth Scorecard (WoW, MoM, QoQ, YoY Cadence Reporter with CSV Export)",
+          "Weekly 1-Page CMO & Channel Governance Dashboard with Creative Fatigue Kill-Rules"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://heliosurya.github.io/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is a Build-Operate-Transfer Fractional CMO different from a marketing agency?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Traditional agencies earn retainers or media commissions tied to ad spend and top-line vanity metrics, creating permanent dependency. Apex Pragmatika acts as an owner-aligned Fractional CMO: we fix your unit economics first (Build), run disciplined acquisition tied to contribution margin (Operate), and hire, train, and hand over the complete internal growth engine to your team (Transfer)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does topline revenue growth often erode profit margins?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Boards and public markets frequently reward 18-to-36-month executives for top-line velocity regardless of payback period, leading to discounted pricing and bloated customer acquisition costs (CAC). When a business scales unverified channels before fixing positioning, pricing power, and conversion leaks, every incremental rupee of revenue consumes cash flow instead of compounding net profit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is Apex Pragmatika built for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Apex Pragmatika is designed specifically for founder-led businesses, profitable SMEs, and second-generation entrepreneurs who measure success in multi-decade cash flow and EBITDA—and who want to break past referral or status-quo ceilings without gambling margins on unproven ad spend."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens during the complimentary 30-minute P&L growth diagnostic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no pitch deck. You bring your current revenue mix, acquisition bottlenecks, or margin constraints, and we conduct a focused 30-minute unit-economic stress test so you leave with a clear diagnosis of where profit is leaking and your highest-leverage next step."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <style>
+    /* ==========================================================================
+       DESIGN TOKENS (@apex-pragmatika)
+       Obsidian Charcoal + Midnight Slate + Solar Amber & Warm Gold
+       ========================================================================== */
     :root {
-      --bg: #121216;
-      --bg-card: #1C1C24;
-      --bg-card-hover: #24242E;
-      --ink: #F4F4F6;
-      --ink-muted: #9CA3AF;
-      --ink-dim: #6B7280;
-      --purple: #6D28D9;
-      --purple-hover: #7C3AED;
-      --purple-light: #A78BFA;
-      --purple-soft: rgba(109, 40, 217, 0.14);
-      --gold: #F59E0B;
-      --gold-soft: rgba(245, 158, 11, 0.14);
-      --gold-light: #FBBF24;
-      --accent: #F4F4F6;
-      --line: #2A2A38;
-      --font-serif: 'Playfair Display', 'Times New Roman', serif;
-      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      --max-width: 820px;
+      --bg-obsidian: #121216;
+      --bg-slate: #1C1C24;
+      --bg-slate-hover: #22222C;
+      --accent-amber: #FBBF24;
+      --accent-gold: #F59E0B;
+      --status-green: #10B981;
+      --status-green-bg: rgba(16, 185, 129, 0.14);
+      --status-amber: #FBBF24;
+      --status-amber-bg: rgba(251, 191, 36, 0.14);
+      --status-red: #F87171;
+      --status-red-bg: rgba(248, 113, 113, 0.14);
+      --text-white: #FFFFFF;
+      --text-body: #D1D5DB;
+      --text-muted: #9CA3AF;
+      --border-hairline: rgba(251, 191, 36, 0.16);
+      --border-strong: rgba(251, 191, 36, 0.42);
+      --shadow-card: 0 18px 40px -15px rgba(0, 0, 0, 0.65);
+      --shadow-gold: 0 10px 28px -8px rgba(251, 191, 36, 0.28);
+
+      --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --container-max: 1160px;
+      --nav-height: 76px;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
     }
 
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    /* Reset & Base Accessibility */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-obsidian);
+      color: var(--text-body);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
 
     body {
-      background: var(--bg);
-      color: var(--ink);
-      font-family: var(--font-sans);
-      font-size: 1rem;
-      line-height: 1.7;
-      -webkit-font-smoothing: antialiased;
+      background-color: var(--bg-obsidian);
+      color: var(--text-body);
+      overflow-x: hidden;
+      min-height: 100vh;
     }
 
-    a { color: var(--purple); text-decoration: none; }
-    a:hover { color: var(--purple-hover); }
-
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 100;
-      padding: 1.25rem 0;
-      background: rgba(10, 10, 15, 0.85);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--line);
+    section[id] {
+      scroll-margin-top: calc(var(--nav-height) + 24px);
     }
 
-    nav {
-      max-width: var(--max-width);
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Skip Link for Keyboard Accessibility */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      background: var(--accent-amber);
+      color: var(--bg-obsidian);
+      font-family: var(--font-mono);
+      font-weight: 600;
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      z-index: 9999;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    /* Layout Container */
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
       margin: 0 auto;
-      padding: 0 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      padding: 0 clamp(20px, 4vw, 40px);
     }
 
-    .brand {
-      font-family: var(--font-serif);
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--accent);
-      letter-spacing: 0.02em;
-    }
-
-    .brand span { color: var(--purple); }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    nav ul li a {
-      color: var(--ink-muted);
-      font-size: 0.85rem;
-      font-weight: 500;
-      transition: color 0.2s;
-    }
-    nav ul li a:hover { color: var(--accent); }
-
-    .hero {
-      padding: 9rem 1.5rem 5rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(120% 80% at 50% 0%, rgba(109, 40, 217, 0.10) 0%, transparent 60%);
-      pointer-events: none;
-    }
-
-    .hero-img {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, #1a1a2e 0%, #2a1a4a 50%, #1a2a4a 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0.15;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    .hero-img .glow {
-      position: absolute;
-      width: 600px;
-      height: 600px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(167, 139, 250, 0.15) 0%, transparent 70%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    .hero-inner {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      position: relative;
-      z-index: 1;
-    }
-
-    .hero h1 {
-      font-family: var(--font-serif);
-      font-size: clamp(2.2rem, 5vw, 3.4rem);
-      font-weight: 700;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      margin-bottom: 1rem;
-    }
-
-    .hero h1 .sun {
-      display: block;
-      font-size: 0.35em;
-      font-family: var(--font-serif);
-      font-weight: 400;
-      color: var(--purple-light);
-      margin-top: 0.25rem;
-      letter-spacing: 0.08em;
-      position: relative;
-    }
-
-    .hero h1 .sun::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 60%;
-      height: 60%;
-      border-radius: 50%;
-      background: radial-gradient(circle, #FBBF24 0%, transparent 70%);
-      transform: translate(-50%, -50%);
-      box-shadow:
-        0 0 20px rgba(245, 158, 11, 0.6),
-        0 0 40px rgba(245, 158, 11, 0.3),
-        0 0 80px rgba(245, 158, 11, 0.1);
-      animation: sun-glow 3s ease-in-out infinite alternate;
-    }
-
-    @keyframes sun-glow {
-      0% { box-shadow: 0 0 15px rgba(245, 158, 11, 0.4), 0 0 30px rgba(245, 158, 11, 0.2), 0 0 60px rgba(245, 158, 11, 0.08); }
-      100% { box-shadow: 0 0 25px rgba(245, 158, 11, 0.7), 0 0 50px rgba(245, 158, 11, 0.35), 0 0 100px rgba(245, 158, 11, 0.15); }
-    }
-
-    .hero p {
-      color: var(--ink-muted);
-      font-size: 1.05rem;
-      line-height: 1.65;
-      max-width: 560px;
-      margin: 1rem auto 1.5rem;
-    }
-
-    .badges {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .badge {
-      background: var(--bg-card);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 0.6rem 1.1rem;
-      font-size: 0.85rem;
-      color: var(--ink);
+    /* Typography Helpers */
+    .eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
-      transition: border-color 0.2s, background 0.2s;
-    }
-    .badge:hover {
-      border-color: var(--purple);
-      background: var(--bg-card-hover);
-      color: var(--gold);
-    }
-
-    .intro {
-      padding: 4rem 1.5rem 3rem;
-      text-align: center;
-    }
-
-    .intro p {
-      max-width: 580px;
-      margin: 0 auto;
-      color: var(--ink-muted);
-      font-size: 1.02rem;
-      line-height: 1.7;
-    }
-
-    .services {
-      padding: 2.5rem 1.5rem;
-      text-align: center;
-    }
-
-    .section-label {
-      font-family: var(--font-serif);
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: var(--purple);
-      letter-spacing: 0.04em;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
-      margin-bottom: 0.75rem;
+      color: var(--accent-amber);
+      margin-bottom: 14px;
     }
 
-    .services h2 {
-      font-family: var(--font-serif);
-      font-size: 1.8rem;
+    h1, h2, h3, h4 {
+      font-family: var(--font-display);
+      color: var(--text-white);
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+    }
+
+    h1 {
+      font-size: clamp(2.35rem, 5.2vw, 3.85rem);
       font-weight: 700;
-      margin-bottom: 1.25rem;
-      line-height: 1.2;
     }
 
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding-top: 1.5rem;
+    h2 {
+      font-size: clamp(1.85rem, 3.6vw, 2.65rem);
+      font-weight: 700;
     }
 
-    .service-card {
-      background: var(--bg-card);
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 1.25rem;
-      transition: border-color 0.2s, background 0.2s;
-    }
-    .service-card:hover {
-      border-color: var(--purple);
-      background: var(--bg-card-hover);
+    h3 {
+      font-size: clamp(1.25rem, 2vw, 1.45rem);
+      font-weight: 700;
     }
 
-    .service-card h3 {
-      font-family: var(--font-serif);
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-bottom: 0.4rem;
-      color: var(--accent);
+    .text-gold {
+      color: var(--accent-amber);
     }
 
-    .service-card p {
-      font-size: 0.88rem;
-      color: var(--ink-dim);
-      line-height: 1.6;
-    }
-
-    .contact {
-      padding: 3rem 1.5rem;
+    /* Call to Outcome Buttons (Touch-Friendly >= 48px Height) */
+    .btn-outcome {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 13px 24px;
+      background-color: var(--accent-amber);
+      color: var(--bg-obsidian);
+      font-family: var(--font-display);
+      font-size: 0.98rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--accent-amber);
+      box-shadow: var(--shadow-gold);
+      cursor: pointer;
+      transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
       text-align: center;
     }
 
-    .contact-inner {
-      max-width: var(--max-width);
-      margin: 0 auto;
+    .btn-outcome:hover, .btn-outcome:focus-visible {
+      background-color: #fcd34d;
+      transform: translateY(-2px);
+      box-shadow: 0 14px 32px -6px rgba(251, 191, 36, 0.42);
+      outline: none;
     }
 
-    .contact h2 {
-      font-family: var(--font-serif);
-      font-size: 1.8rem;
-      font-weight: 700;
-      margin-bottom: 1.25rem;
-    }
-
-    .contact-methods {
-      display: flex;
-      gap: 1.25rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 1.25rem;
-    }
-
-    .contact-method {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      padding: 0.85rem 1.25rem;
-      background: var(--bg-card);
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      font-size: 0.92rem;
-      color: var(--ink);
-      transition: border-color 0.2s, background 0.2s;
-    }
-    .contact-method:hover {
-      border-color: var(--purple);
-      background: var(--bg-card-hover);
-    }
-
-    .contact-method .icon {
-      width: 28px;
-      height: 28px;
-      border-radius: 6px;
-      background: var(--purple-soft);
-      border: 1px solid rgba(124, 58, 237, 0.3);
-      display: flex;
+    .btn-ghost {
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.85rem;
-      color: var(--purple);
+      gap: 8px;
+      min-height: 50px;
+      padding: 13px 22px;
+      background-color: transparent;
+      color: var(--text-white);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      font-weight: 500;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-strong);
+      transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+    }
+
+    .btn-ghost:hover, .btn-ghost:focus-visible {
+      border-color: var(--accent-amber);
+      background-color: rgba(251, 191, 36, 0.08);
+      color: var(--accent-amber);
+      outline: none;
+    }
+
+    .outcome-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--accent-amber);
+      transition: gap 0.18s ease, color 0.18s ease;
+    }
+
+    .outcome-link:hover, .outcome-link:focus-visible {
+      color: #fde68a;
+      gap: 12px;
+      outline: none;
+    }
+
+    .micro-assurance {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+
+    /* ==========================================================================
+       STICKY HEADER & ADAPTIVE NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      height: var(--nav-height);
+      background-color: rgba(18, 18, 22, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      gap: 16px;
+    }
+
+    .brand-lockup {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 44px;
       flex-shrink: 0;
     }
 
-    .contact-method a {
-      color: var(--ink);
+    .brand-wordmark {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 0.06em;
+      color: var(--text-white);
+      text-transform: uppercase;
+    }
+
+    .brand-wordmark span {
+      color: var(--accent-amber);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
       font-weight: 500;
+      color: var(--text-body);
+      padding: 8px 4px;
+      transition: color 0.18s ease;
     }
-    .contact-method a:hover { color: var(--purple-hover); }
 
-    footer {
-      padding: 1.5rem 1.5rem 2.5rem;
+    .nav-links a:hover, .nav-links a:focus-visible {
+      color: var(--accent-amber);
+      outline: none;
+    }
+
+    .nav-live-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 7px;
+      background: rgba(251, 191, 36, 0.14);
+      border: 1px solid rgba(251, 191, 36, 0.42);
+      border-radius: 999px;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--accent-amber);
+      line-height: 1.2;
+    }
+
+    .nav-cta {
+      min-height: 42px;
+      padding: 9px 16px;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 46px;
+      height: 46px;
+      background: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+      color: var(--text-white);
+      cursor: pointer;
+    }
+
+    .mobile-drawer {
+      display: none;
+      position: fixed;
+      inset: var(--nav-height) 0 0 0;
+      background-color: var(--bg-obsidian);
+      border-top: 1px solid var(--border-hairline);
+      padding: 28px clamp(20px, 5vw, 40px);
+      z-index: 999;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .mobile-drawer.open {
+      display: flex;
+    }
+
+    .mobile-drawer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .mobile-drawer-links a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-white);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    /* Sticky Mobile Bottom Call to Outcome Bar */
+    .mobile-sticky-cto {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 990;
+      padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      background: rgba(18, 18, 22, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border-strong);
+    }
+
+    @media (max-width: 960px) {
+      .nav-links, .nav-cta-desktop {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: inline-flex;
+      }
+      .mobile-sticky-cto {
+        display: block;
+      }
+      .site-footer {
+        padding-bottom: 96px;
+      }
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero {
+      position: relative;
+      padding: clamp(56px, 9vw, 108px) 0 clamp(64px, 8vw, 96px);
+      border-bottom: 1px solid var(--border-hairline);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
+      gap: clamp(32px, 5vw, 64px);
+      align-items: center;
+    }
+
+    .hero-subheadline {
+      font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+      color: var(--text-body);
+      max-width: 66ch;
+      margin-top: 22px;
+      line-height: 1.7;
+    }
+
+    .hero-subheadline strong {
+      color: var(--text-white);
+      font-weight: 600;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 16px;
+      margin-top: 34px;
+    }
+
+    .proof-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 40px;
+      padding-top: 26px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .proof-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 13px;
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: 999px;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-body);
+    }
+
+    .proof-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--accent-amber);
+    }
+
+    /* Hero Architectural Peak-Margin Diagram */
+    .hero-diagram-card {
+      background: linear-gradient(160deg, var(--bg-slate) 0%, #15151b 100%);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .diagram-caption {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-diagram-card {
+        max-width: 480px;
+      }
+    }
+
+    /* ==========================================================================
+       STANDARD SECTION & CARD ARCHITECTURE
+       ========================================================================== */
+    .section {
+      padding: clamp(64px, 8.5vw, 104px) 0;
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .section-header {
+      max-width: 740px;
+      margin-bottom: clamp(36px, 5vw, 52px);
+    }
+
+    .section-lead {
+      font-size: clamp(1.02rem, 1.4vw, 1.14rem);
+      color: var(--text-body);
+      margin-top: 16px;
+      line-height: 1.7;
+    }
+
+    /* Two-Column Contrast Grid */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+      gap: 24px;
+    }
+
+    /* Three-Column Triad Grid */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-md);
+      padding: clamp(24px, 3vw, 32px);
+      box-shadow: var(--shadow-card);
+      transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-strong);
+      background-color: var(--bg-slate-hover);
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-amber);
+      margin-bottom: 12px;
+    }
+
+    .card-tag-muted {
+      color: var(--text-muted);
+    }
+
+    .card p {
+      color: var(--text-body);
+      font-size: 0.96rem;
+      margin-top: 12px;
+      line-height: 1.65;
+    }
+
+    .card-footer-tag {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-family: var(--font-mono);
+      font-size: 0.73rem;
+      color: var(--accent-gold);
+      letter-spacing: 0.04em;
+    }
+
+    /* Synthesis Callout Bar */
+    .synthesis-bar {
+      margin-top: 32px;
+      padding: clamp(22px, 3vw, 28px);
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-left: 4px solid var(--accent-amber);
+      border-radius: var(--radius-md);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .synthesis-copy {
+      max-width: 640px;
+      font-size: 1.02rem;
+      color: var(--text-white);
+    }
+
+    .synthesis-copy span {
+      color: var(--text-body);
+      font-weight: 400;
+    }
+
+    /* Topic & Pedagogy Lists inside Session Cards */
+    .session-list {
+      list-style: none;
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .session-list li {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      color: var(--text-body);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .session-list li::before {
+      content: "→";
+      color: var(--accent-amber);
+      flex-shrink: 0;
+    }
+
+    .card-cta-wrap {
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .availability-strip {
+      margin-top: 28px;
+      padding: 14px 20px;
+      background: rgba(28, 28, 36, 0.65);
+      border: 1px dashed var(--border-strong);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
       text-align: center;
-      border-top: 1px solid var(--line);
-      color: var(--ink-dim);
+      letter-spacing: 0.06em;
+    }
+
+    /* ==========================================================================
+       AEO / GEO SEMANTIC FAQ ACCORDION
+       ========================================================================== */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-width: 880px;
+    }
+
+    details.faq-item {
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-md);
+      padding: 0 24px;
+      transition: border-color 0.2s ease;
+    }
+
+    details.faq-item[open] {
+      border-color: var(--border-strong);
+    }
+
+    details.faq-item summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 22px 0;
+      font-family: var(--font-display);
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--text-white);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 56px;
+    }
+
+    details.faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-icon {
+      font-family: var(--font-mono);
+      font-size: 1.25rem;
+      color: var(--accent-amber);
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    details.faq-item[open] .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      padding-bottom: 24px;
+      color: var(--text-body);
+      font-size: 0.98rem;
+      line-height: 1.7;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 16px;
+    }
+
+    /* ==========================================================================
+       FINAL CONVERSION CARD & FOOTER
+       ========================================================================== */
+    .cta-box {
+      background: radial-gradient(circle at top right, rgba(251, 191, 36, 0.11), transparent 55%), var(--bg-slate);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: clamp(32px, 5vw, 56px);
+      box-shadow: var(--shadow-card);
+    }
+
+    .cta-channels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.09);
+    }
+
+    .channel-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .channel-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .channel-value {
+      font-family: var(--font-mono);
+      font-size: 0.92rem;
+      color: var(--text-white);
+      transition: color 0.18s ease;
+    }
+
+    .channel-value:hover {
+      color: var(--accent-amber);
+    }
+
+    .site-footer {
+      padding: 36px 0 48px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent-amber);
+    }
+
+    /* ==========================================================================
+       INTERACTIVE #TOOLS WORKBENCH (VAULT CALCULATORS & REPORTING SUITE)
+       ========================================================================== */
+    .tools-shell {
+      background: linear-gradient(180deg, rgba(28, 28, 36, 0.72) 0%, rgba(18, 18, 22, 0.96) 100%);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: clamp(20px, 3.5vw, 36px);
+      box-shadow: 0 24px 56px -18px rgba(0, 0, 0, 0.85);
+    }
+
+    .tools-topbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .currency-switch {
+      display: inline-flex;
+      background-color: var(--bg-obsidian);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-sm);
+      padding: 4px;
+      gap: 4px;
+    }
+
+    .currency-btn {
+      min-height: 38px;
+      padding: 6px 14px;
+      background: transparent;
+      border: none;
+      border-radius: 6px;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+
+    .currency-btn.active {
+      background-color: var(--accent-amber);
+      color: var(--bg-obsidian);
+    }
+
+    .tools-tabs {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 920px) {
+      .tools-tabs {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 540px) {
+      .tools-tabs {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .tool-tab-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      gap: 4px;
+      min-height: 68px;
+      padding: 14px 16px;
+      background-color: var(--bg-obsidian);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+
+    .tool-tab-btn:hover {
+      border-color: var(--border-strong);
+      background-color: #18181f;
+    }
+
+    .tool-tab-btn.active {
+      background-color: var(--bg-slate);
+      border-color: var(--accent-amber);
+      box-shadow: 0 8px 24px -10px rgba(251, 191, 36, 0.32);
+    }
+
+    .tool-tab-kicker {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-amber);
+    }
+
+    .tool-tab-title {
+      font-family: var(--font-display);
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: var(--text-white);
+      line-height: 1.25;
+    }
+
+    .tool-panel {
+      display: none;
+      margin-top: 26px;
+      animation: fadePanel 0.22s ease;
+    }
+
+    .tool-panel.active {
+      display: block;
+    }
+
+    @keyframes fadePanel {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .workbench-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    @media (max-width: 960px) {
+      .workbench-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .wb-box {
+      background-color: var(--bg-obsidian);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-md);
+      padding: clamp(18px, 2.5vw, 24px);
+    }
+
+    .wb-box-title {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--accent-amber);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .control-group {
+      margin-bottom: 18px;
+    }
+
+    .control-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .control-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .control-label {
+      font-size: 0.86rem;
+      font-weight: 500;
+      color: var(--text-body);
+    }
+
+    .control-input-wrap {
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      padding: 4px 10px;
+      gap: 4px;
+    }
+
+    .control-prefix, .control-suffix {
+      font-family: var(--font-mono);
       font-size: 0.8rem;
-      background: var(--bg);
+      color: var(--accent-amber);
     }
 
-    footer p {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      line-height: 1.6;
+    .num-input {
+      width: 96px;
+      background: transparent;
+      border: none;
+      color: var(--text-white);
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-align: right;
+      outline: none;
     }
 
-    footer a { color: var(--ink-dim); }
-    footer a:hover { color: var(--accent); }
+    .num-input::-webkit-inner-spin-button {
+      opacity: 0.6;
+    }
 
-    @media (max-width: 640px) {
-      nav ul { gap: 1rem; }
-      nav ul li a { font-size: 0.8rem; }
-      .hero { padding-top: 8rem; }
-      .hero h1 { font-size: 2rem; }
-      .services-grid { grid-template-columns: 1fr; }
+    input[type="range"].gold-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 6px;
+      background: #272732;
+      border-radius: 999px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    input[type="range"].gold-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-amber);
+      border: 2px solid var(--bg-obsidian);
+      box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.35);
+      cursor: pointer;
+    }
+
+    input[type="range"].gold-slider::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-amber);
+      border: 2px solid var(--bg-obsidian);
+      cursor: pointer;
+    }
+
+    .pill-toggle-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .mini-pill-btn {
+      min-height: 36px;
+      padding: 6px 12px;
+      background: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: 6px;
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      color: var(--text-body);
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+
+    .mini-pill-btn.active {
+      background: rgba(251, 191, 36, 0.16);
+      border-color: var(--accent-amber);
+      color: var(--accent-amber);
+      font-weight: 600;
+    }
+
+    .wb-select {
+      width: 100%;
+      min-height: 42px;
+      padding: 8px 12px;
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      color: var(--text-white);
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      outline: none;
+    }
+
+    /* KPI Output Cards */
+    .kpi-grid-4 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    @media (min-width: 640px) {
+      .kpi-grid-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    .kpi-tile {
+      background-color: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+    }
+
+    .kpi-tile-label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+
+    .kpi-tile-value {
+      font-family: var(--font-mono);
+      font-size: clamp(1.12rem, 2vw, 1.38rem);
+      font-weight: 600;
+      color: var(--text-white);
+      margin-top: 6px;
+      line-height: 1.2;
+    }
+
+    .kpi-tile-sub {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      margin-top: 5px;
+    }
+
+    /* Status Badges */
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .badge-green {
+      background: var(--status-green-bg);
+      color: var(--status-green);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
+    .badge-amber {
+      background: var(--status-amber-bg);
+      color: var(--status-amber);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+    }
+
+    .badge-red {
+      background: var(--status-red-bg);
+      color: var(--status-red);
+      border: 1px solid rgba(248, 113, 113, 0.35);
+    }
+
+    /* Three-Lever Sensitivity Grid */
+    .lever-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 680px) {
+      .lever-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .lever-card {
+      background: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      transition: border-color 0.2s ease;
+    }
+
+    .lever-card.winner {
+      border-color: var(--accent-amber);
+      background: linear-gradient(160deg, rgba(251, 191, 36, 0.1) 0%, var(--bg-slate) 100%);
+    }
+
+    .diagnostic-banner {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.88rem;
+      line-height: 1.55;
+      border-left: 3px solid var(--accent-amber);
+      background: rgba(28, 28, 36, 0.85);
+      color: var(--text-body);
+    }
+
+    /* Responsive Tables for Scorecard & Channel Governance */
+    .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+    }
+
+    .exec-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 660px;
+      font-size: 0.84rem;
+    }
+
+    .exec-table th {
+      background: #16161d;
+      padding: 12px 14px;
+      text-align: left;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .exec-table td {
+      padding: 11px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-body);
+      vertical-align: middle;
+    }
+
+    .exec-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .table-num-input {
+      width: 88px;
+      padding: 6px 8px;
+      background: var(--bg-slate);
+      border: 1px solid rgba(251, 191, 36, 0.25);
+      border-radius: 5px;
+      color: var(--text-white);
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      text-align: right;
+    }
+
+    .table-num-input:focus {
+      border-color: var(--accent-amber);
+      outline: none;
+    }
+
+    .tool-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .action-chip-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 38px;
+      padding: 7px 14px;
+      background: var(--bg-slate);
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      color: var(--accent-amber);
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+
+    .action-chip-btn:hover {
+      background: rgba(251, 191, 36, 0.14);
+    }
+
+    .notes-box {
+      width: 100%;
+      margin-top: 16px;
+      padding: 12px 14px;
+      background: var(--bg-slate);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--radius-sm);
+      color: var(--text-white);
+      font-family: var(--font-sans);
+      font-size: 0.86rem;
+      resize: vertical;
+      min-height: 68px;
+    }
+
+    .notes-box:focus {
+      border-color: var(--accent-amber);
+      outline: none;
+    }
+
+    /* Governance 4-Quadrant Top Gauges */
+    .gov-top-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 8px;
+      background: #272732;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent-amber);
+      border-radius: 999px;
+      transition: width 0.25s ease, background-color 0.25s ease;
+    }
+
+    /* Print Stylesheet for 1-Page Executive Governance Report */
+    @media print {
+      body { background: #ffffff !important; color: #111827 !important; }
+      .site-header, .mobile-sticky-cto, .hero, #thesis, #model, #sessions, #faq, #contact, .site-footer, .tools-tabs, .tools-topbar, .action-chip-btn {
+        display: none !important;
+      }
+      #tools { padding: 0 !important; border: none !important; }
+      .tools-shell, .wb-box, .kpi-tile {
+        background: #ffffff !important;
+        color: #111827 !important;
+        border: 1px solid #d1d5db !important;
+        box-shadow: none !important;
+      }
+      .kpi-tile-value, h2, h3, strong { color: #111827 !important; }
     }
   </style>
 </head>
-<body>
-  <header>
-    <nav>
-      <a href="#top" class="brand">Surya<span>.</a>
-      <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="tos.html">Terms</a></li>
-      </ul>
-    </nav>
+<body id="top">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       STICKY NAVIGATION HEADER
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand-lockup" aria-label="Apex Pragmatika Home">
+        <svg width="34" height="34" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="64" height="64" rx="12" fill="#1C1C24" stroke="rgba(251,191,36,0.28)" stroke-width="2"/>
+          <path d="M13 50L32 16L51 50H42.5L32 31L21.5 50H13Z" fill="#FFFFFF"/>
+          <polygon points="32,8 37.5,17.5 32,23 26.5,17.5" fill="#FBBF24"/>
+          <polygon points="32,14 35.5,19 32,23 28.5,19" fill="#F59E0B"/>
+        </svg>
+        <span class="brand-wordmark">Apex <span>Pragmatika</span></span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#thesis">The Thesis</a></li>
+          <li><a href="#model">Build · Operate · Transfer</a></li>
+          <li><a href="#tools">Tools <span class="nav-live-badge">LIVE</span></a></li>
+          <li><a href="#sessions">Speaking &amp; Sessions</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome nav-cta nav-cta-desktop">
+        Find Your Margin Leaks — 30 Min (Free) →
+      </a>
+
+      <button type="button" class="mobile-menu-btn" id="mobileMenuToggle" aria-expanded="false" aria-controls="mobileDrawer" aria-label="Open navigation menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
   </header>
 
-  <section class="hero" id="top">
-    <div class="hero-img">
-      <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <radialGradient id="sun-grad" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#FBBF24"/>
-            <stop offset="100%" stop-color="#F59E0B"/>
-          </radialGradient>
-          <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#1E1E2A"/>
-            <stop offset="100%" stop-color="#121216"/>
-          </radialGradient>
-        </defs>
-        <rect width="800" height="600" fill="url(#bg-grad)"/>
-        <circle cx="620" cy="170" r="180" fill="url(#sun-grad)" opacity="0.15"/>
-        <circle cx="200" cy="450" r="150" fill="url(#sun-grad)" opacity="0.10"/>
-        <rect x="250" y="150" width="300" height="200" rx="12" fill="url(#sun-grad)" opacity="0.08"/>
-        <circle cx="400" cy="300" r="120" fill="url(#sun-grad)" opacity="0.12"/>
-        <g opacity="0.4">
-          <circle cx="380" cy="280" r="4" fill="#FBBF24"/>
-          <circle cx="420" cy="320" r="4" fill="#FBBF24"/>
-          <circle cx="400" cy="300" r="6" fill="#F59E0B"/>
-          <circle cx="440" cy="280" r="4" fill="#FBBF24"/>
-          <circle cx="360" cy="320" r="4" fill="#FBBF24"/>
-        </g>
-      </svg>
-    </div>
-    <div class="hero-inner">
-      <h1>
-        Surya Narayanan
-        <span class="sun">&amp;</span>
-      </h1>
-      <p>Fractional CMO — building, operating, and transferring marketing excellence for startups and scale-ups.
-      Currently CMO at Cheerio AI and Sunbeam Ventures; mentor through NSRCEL.</p>
-      <div class="badges">
-        <span class="badge">📊 Growth Architect</span>
-        <span class="badge">🏢 CMO — Cheerio AI</span>
-        <span class="badge">🏢 CMO — Sunbeam Ventures</span>
-        <span class="badge">🤝 Mentor — NSRCEL</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="intro">
-    <p>
-      I partner with founders and marketing teams to build a robust marketing engine — strategy, team, and Martech stack —
-      then operate it day-to-day and transfer the knowledge so your organisation can run it independently.
-    </p>
-  </section>
-
-  <section class="services" id="services">
-    <p class="section-label">What I do</p>
-    <h2>Building, Operating, Transferring</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Build</h3>
-        <p>Craft a strategic marketing plan, assemble a high-performing marketing team, and implement a powerful Martech stack tailored to your business.</p>
-      </div>
-      <div class="service-card">
-        <h3>Operate</h3>
-        <p>Run day-to-day marketing as an extension of your team — hiring, process design, and delivering measurable results against your business goals.</p>
-      </div>
-      <div class="service-card">
-        <h3>Transfer</h3>
-        <p>Empower your team for long-term success through knowledge transfer, so you can take the reins seamlessly after the engagement ends.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="services" id="workshops">
-    <p class="section-label">Workshops &amp; Sessions</p>
-    <h2>Corporate &amp; Classroom</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Corporate Workshops</h3>
-        <p>Hands-on marketing sessions for teams — funnel analytics, content strategy, Martech stack reviews, and growth experiments tailored to your org's stage and goals. Runs <strong>on-site and face-to-face</strong> or <strong>virtual</strong>, depending on what suits your team.</p>
-      </div>
-      <div class="service-card">
-        <h3>Student &amp; Teacher Sessions</h3>
-        <p>Marketing workshops for students and educators — funnel thinking, creator economies, AI-assisted marketing, and career pathways in growth.</p>
-      </div>
-      <div class="service-card">
-        <h3>Run &amp; Iterate</h3>
-        <p>A 6–12 week intensive where we run live campaigns together — weekly reviews, live audits, and playbooks your team can reuse long after the workshop ends.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <p class="section-label">Connect</p>
-    <h2>Let's talk</h2>
-    <div class="contact-methods">
-      <a class="contact-method" href="https://www.linkedin.com/in/nsuryanarayanan/" target="_blank" rel="noopener">
-        <span class="icon">in</span>
-        <span>LinkedIn: <strong>Surya Narayanan</strong></span>
+  <!-- Mobile Adaptive Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-label="Mobile Navigation">
+    <ul class="mobile-drawer-links">
+      <li><a href="#thesis" class="mobile-nav-link"><span>01 · The Thesis</span></a></li>
+      <li><a href="#model" class="mobile-nav-link"><span>02 · Build · Operate · Transfer</span></a></li>
+      <li><a href="#tools" class="mobile-nav-link"><span>03 · Owner P&amp;L Tools</span> <span class="nav-live-badge">LIVE</span></a></li>
+      <li><a href="#sessions" class="mobile-nav-link"><span>04 · Speaking &amp; Sessions</span></a></li>
+      <li><a href="#faq" class="mobile-nav-link"><span>05 · Owner Briefing (FAQ)</span></a></li>
+    </ul>
+    <div>
+      <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome" style="width: 100%;">
+        Find Your Margin Leaks — 30 Min (Free) →
       </a>
-      <a class="contact-method" href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener">
-        <span class="icon">call</span>
-        <span>Schedule a call</span>
-      </a>
-      <a class="contact-method" href="mailto:n.surya.narayanan+github@gmail.com">
-        <span class="icon">mail</span>
-        <span>n.surya.narayanan+github@gmail.com</span>
-      </a>
+      <span class="micro-assurance" style="text-align: center;">COMPLIMENTARY OWNER DIAGNOSTIC · ZERO PITCH</span>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    <p>
-      &copy; <span id="year"></span> Surya Narayanan. Built as a personal site.
-      <a href="privacy.html">Privacy Policy</a> · <a href="tos.html">Terms of Service</a>
-    </p>
+  <!-- Sticky Mobile Call to Outcome Bar -->
+  <div class="mobile-sticky-cto">
+    <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome" style="width: 100%; min-height: 44px; padding: 10px 16px; font-size: 0.88rem;">
+      Find Your Margin Leaks — 30 Min (Free) →
+    </a>
+  </div>
+
+  <!-- ========================================================================
+       MAIN CONTENT LANDMARK
+       ======================================================================== -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Fractional CMO · Build · Operate · Transfer</span>
+          <h1 id="hero-heading">
+            Scale your topline without surrendering your <span class="text-gold">bottom line.</span>
+          </h1>
+          <p class="hero-subheadline">
+            Most marketing playbooks are built for 24-month executives rewarded by boards for revenue at any cost. <strong>Apex Pragmatika</strong> partners directly with business owners and 2nd-generation entrepreneurs to build, operate, and transfer a self-funding growth engine that compounds net profit—not just GMV.
+          </p>
+
+          <div class="hero-actions">
+            <div>
+              <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome">
+                Uncover Where Growth Is Eroding Your Margin →
+              </a>
+              <span class="micro-assurance">30-MIN COMPLIMENTARY OWNER DIAGNOSTIC · LEAVE WITH YOUR BOTTLENECK IDENTIFIED</span>
+            </div>
+            <a href="#tools" class="btn-ghost">
+              Launch Unit-Economics &amp; P&amp;L Tools ↓
+            </a>
+          </div>
+
+          <div class="proof-strip" aria-label="Leadership Credentials">
+            <span class="proof-pill"><span class="proof-dot"></span>CMO · Cheerio AI</span>
+            <span class="proof-pill"><span class="proof-dot"></span>CMO · Sunbeam Ventures</span>
+            <span class="proof-pill"><span class="proof-dot"></span>Startup Mentor · NSRCEL (IIM Bangalore)</span>
+          </div>
+        </div>
+
+        <!-- Precision Peak-Margin Trajectory Diagram -->
+        <aside class="hero-diagram-card" aria-label="Contribution Margin vs Unchecked CAC Drag">
+          <svg viewBox="0 0 360 250" width="100%" height="auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart comparing compounding contribution margin trajectory against eroding CAC curve">
+            <line x1="28" y1="40" x2="332" y2="40" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4"/>
+            <line x1="28" y1="95" x2="332" y2="95" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4"/>
+            <line x1="28" y1="150" x2="332" y2="150" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4"/>
+            <line x1="28" y1="205" x2="332" y2="205" stroke="rgba(255,255,255,0.14)"/>
+            <line x1="28" y1="24" x2="28" y2="205" stroke="rgba(255,255,255,0.14)"/>
+
+            <path d="M36 165 C110 155, 195 172, 322 196" stroke="#6B7280" stroke-width="2.2" stroke-dasharray="6 5"/>
+            <text x="172" y="191" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-size="10">UNCHECKED CAC DRAG</text>
+
+            <path d="M36 178 C115 162, 205 112, 314 42" stroke="#FBBF24" stroke-width="3.2" stroke-linecap="round"/>
+            <path d="M36 178 C115 162, 205 112, 314 42 L314 205 L36 205 Z" fill="url(#goldGrad)" opacity="0.22"/>
+
+            <circle cx="115" cy="154" r="4.5" fill="#121216" stroke="#FBBF24" stroke-width="2.2"/>
+            <text x="86" y="138" fill="#D1D5DB" font-family="JetBrains Mono, monospace" font-size="9.5">01 BUILD</text>
+
+            <circle cx="212" cy="107" r="4.5" fill="#121216" stroke="#FBBF24" stroke-width="2.2"/>
+            <text x="174" y="92" fill="#D1D5DB" font-family="JetBrains Mono, monospace" font-size="9.5">02 OPERATE</text>
+
+            <polygon points="314,32 321,42 314,52 307,42" fill="#FBBF24"/>
+            <text x="234" y="34" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-weight="600" font-size="10">03 TRANSFER</text>
+
+            <defs>
+              <linearGradient id="goldGrad" x1="175" y1="42" x2="175" y2="205" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FBBF24"/>
+                <stop offset="1" stop-color="#121216" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="diagram-caption">
+            <span>HORIZON: MULTI-DECADE OWNER P&amp;L</span>
+            <span class="text-gold">UNIT-ECONOMIC PAYBACK FIRST</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SECTION 01: THE STRUCTURAL DIVIDE -->
+    <section id="thesis" class="section" aria-labelledby="thesis-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">01 // The Incentive Mismatch</span>
+          <h2 id="thesis-heading">You aren’t afraid of growth. You’re rational about broken math.</h2>
+          <p class="section-lead">
+            Boards and public markets price quarterly velocity, forcing short-tenure executives to buy topline with margin-destroying ad spend. Meanwhile, agencies built for that ecosystem don’t speak the language of a business owner playing a 20-year game.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <div>
+              <span class="card-tag card-tag-muted">Venture &amp; Board Incentive</span>
+              <h3>The 24-Month Mandate (Burn to Scale)</h3>
+              <p>
+                An executive’s tenure averages 18 to 36 months. When boards reward top-line velocity over payback period, chasing profit is career suicide. When the executive moves on, the business inherits inflated CAC and permanent agency retainers.
+              </p>
+            </div>
+            <div class="card-footer-tag" style="color: var(--text-muted);">
+              RESULT: HIGH GMV · ERODED CONTRIBUTION MARGIN
+            </div>
+          </article>
+
+          <article class="card">
+            <div>
+              <span class="card-tag">Multi-Decade Owner Reality</span>
+              <h3>The Owner’s Dilemma (Protect the Margin)</h3>
+              <p>
+                Second-generation entrepreneurs and founder-owners protect hard-won profitability and refuse to gamble cash flow on unverified clicks—yet holding the status quo while younger competitors buy category mindshare carries its own existential risk.
+              </p>
+            </div>
+            <div class="card-footer-tag">
+              RESULT: HEALTHY BOTTOM LINE · STALLED SCALE
+            </div>
+          </article>
+        </div>
+
+        <div class="synthesis-bar">
+          <div class="synthesis-copy">
+            <strong>Apex Pragmatika resolves the time-horizon divide:</strong>
+            <span> we treat every rupee of marketing spend as capital allocation—proving contribution-margin payback first, then scaling only what funds itself.</span>
+          </div>
+          <div>
+            <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+              Stress-Test Your Current CAC Against Margin (Free 30-Min Session) →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02: BUILD · OPERATE · TRANSFER -->
+    <section id="model" class="section" aria-labelledby="model-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">02 // The Operating Architecture</span>
+          <h2 id="model-heading">Build. Operate. Transfer.</h2>
+          <p class="section-lead">
+            No black-box agency retainers or permanent consultant dependency. We architect your internal growth function, run it to prove unit economics, and hand over the keys.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div>
+              <span class="card-tag">Phase 01 · Build</span>
+              <h3>Fix Unit Economics Before Spend</h3>
+              <p>
+                Audit pricing power, positioning, funnel conversion, and retention leaks. Establish a clean P&amp;L attribution model and lean Martech stack tied directly to contribution margin—not vanity impressions.
+              </p>
+            </div>
+            <div class="card-footer-tag">
+              OUTCOME: UNIT-ECONOMIC &amp; FUNNEL BLUEPRINT
+            </div>
+          </article>
+
+          <article class="card">
+            <div>
+              <span class="card-tag">Phase 02 · Operate</span>
+              <h3>Execute With Owner Accountability</h3>
+              <p>
+                Step in as your Fractional CMO to hire core talent, run disciplined acquisition experiments, and lead weekly P&amp;L reviews—scaling only channels that clear your net margin threshold.
+              </p>
+            </div>
+            <div class="card-footer-tag">
+              OUTCOME: SELF-FUNDING PIPELINE &amp; CADENCE
+            </div>
+          </article>
+
+          <article class="card">
+            <div>
+              <span class="card-tag">Phase 03 · Transfer</span>
+              <h3>Own the Engine Permanently</h3>
+              <p>
+                Codify playbooks, mentor your internal leads, and transition governance so your organization compounds profitable growth independently—zero ongoing reliance on external agencies.
+              </p>
+            </div>
+            <div class="card-footer-tag">
+              OUTCOME: FULL INTERNAL TEAM HANDOVER
+            </div>
+          </article>
+        </div>
+
+        <div class="synthesis-bar">
+          <div>
+            <h3 style="font-size: 1.2rem;">Leave with a 90-day blueprint to own your growth engine.</h3>
+            <span class="micro-assurance" style="margin-top: 6px;">COMPLIMENTARY 30-MIN EXPLORATORY CALL · NO OBLIGATION</span>
+          </div>
+          <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome">
+            Map Your Internal Profit Engine (Free 30-Min Session) →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 03: INTERACTIVE OWNER UNIT-ECONOMICS & P&L TOOLS (#tools)
+         ====================================================================== -->
+    <section id="tools" class="section" aria-labelledby="tools-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">03 // Owner P&amp;L &amp; Unit-Economics Workbench</span>
+          <h2 id="tools-heading">Stress-test your growth math before spending another rupee.</h2>
+          <p class="section-lead">
+            The exact diagnostic calculators and board-grade reporting scorecards I use inside Fractional CMO engagements—built to expose hidden CAC drag, inflated platform RoAS, and slow payback horizons.
+          </p>
+        </div>
+
+        <div class="tools-shell">
+          <!-- Workbench Top Bar: Currency Switcher -->
+          <div class="tools-topbar">
+            <div>
+              <span class="eyebrow" style="margin-bottom: 4px;">Interactive Diagnostic Suite</span>
+              <h3 style="font-size: 1.22rem;">Apex Pragmatika Financial &amp; Governance Tools</h3>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">REPORTING CURRENCY:</span>
+              <div class="currency-switch" role="group" aria-label="Select Currency">
+                <button type="button" class="currency-btn active" data-currency="INR">INR (₹)</button>
+                <button type="button" class="currency-btn" data-currency="USD">USD ($)</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 Tool Tabs -->
+          <div class="tools-tabs" role="tablist" aria-label="P&L and Unit-Economics Tools">
+            <button type="button" class="tool-tab-btn active" role="tab" aria-selected="true" aria-controls="panel-cac" id="tab-cac" data-tab="panel-cac">
+              <span class="tool-tab-kicker">01 · Payback &amp; Levers</span>
+              <span class="tool-tab-title">CAC Payback, LTV &amp; 3-Lever Simulator</span>
+            </button>
+            <button type="button" class="tool-tab-btn" role="tab" aria-selected="false" aria-controls="panel-roas" id="tab-roas" data-tab="panel-roas">
+              <span class="tool-tab-kicker">02 · True Margin RoAS</span>
+              <span class="tool-tab-title">CM2, True nCAC &amp; MER Calculator</span>
+            </button>
+            <button type="button" class="tool-tab-btn" role="tab" aria-selected="false" aria-controls="panel-scorecard" id="tab-scorecard" data-tab="panel-scorecard">
+              <span class="tool-tab-kicker">03 · Cadence Reporter</span>
+              <span class="tool-tab-title">FCMO Scorecard (WoW–YoY)</span>
+            </button>
+            <button type="button" class="tool-tab-btn" role="tab" aria-selected="false" aria-controls="panel-gov" id="tab-gov" data-tab="panel-gov">
+              <span class="tool-tab-kicker">04 · Channel Audit</span>
+              <span class="tool-tab-title">1-Page CMO &amp; Kill-Rule Report</span>
+            </button>
+          </div>
+
+          <!-- ================================================================
+               TAB 1: CAC PAYBACK, HONEST LTV & THREE-LEVER SIMULATOR
+               ================================================================ -->
+          <div id="panel-cac" class="tool-panel active" role="tabpanel" aria-labelledby="tab-cac">
+            <div class="workbench-grid">
+              <!-- Left Column: Inputs -->
+              <div class="wb-box">
+                <div class="wb-box-title">
+                  <span>1. Unit-Economic Inputs</span>
+                  <span style="color: var(--text-muted);">LIVE MODEL</span>
+                </div>
+
+                <div class="control-group">
+                  <label for="cacSegment" class="control-label" style="display: block; margin-bottom: 6px;">Business Model &amp; Benchmark Band</label>
+                  <select id="cacSegment" class="wb-select">
+                    <option value="smb">B2B / SMB &amp; Mid-Market (Target Payback &lt; 12 Mo)</option>
+                    <option value="d2c">Consumer / D2C &amp; Repeat Commerce (Target &lt; 6 Mo)</option>
+                    <option value="ent">Enterprise / High-ACV Contracts (Target &lt; 18 Mo)</option>
+                  </select>
+                </div>
+
+                <div class="pill-toggle-row" role="group" aria-label="Billing Frequency">
+                  <button type="button" class="mini-pill-btn active" id="billingMonthlyBtn" data-billing="monthly">Monthly ARPU</button>
+                  <button type="button" class="mini-pill-btn" id="billingAnnualBtn" data-billing="annual">Annual ACV</button>
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacSpendNum" class="control-label">Monthly Acquisition Spend (S&amp;M)</label>
+                    <div class="control-input-wrap">
+                      <span class="control-prefix curr-sym">₹</span>
+                      <input type="number" id="cacSpendNum" class="num-input" value="600000" min="1000" step="1000" />
+                    </div>
+                  </div>
+                  <input type="range" id="cacSpendRange" class="gold-slider" min="50000" max="5000000" step="25000" value="600000" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacPaidCustNum" class="control-label">New Paid-Attributed Customers / Mo</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="cacPaidCustNum" class="num-input" value="24" min="1" max="5000" step="1" />
+                    </div>
+                  </div>
+                  <input type="range" id="cacPaidCustRange" class="gold-slider" min="1" max="300" step="1" value="24" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacOrgCustNum" class="control-label">Organic / Referral Customers / Mo</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="cacOrgCustNum" class="num-input" value="12" min="0" max="5000" step="1" />
+                    </div>
+                  </div>
+                  <input type="range" id="cacOrgCustRange" class="gold-slider" min="0" max="200" step="1" value="12" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacArpuNum" class="control-label" id="cacArpuLabel">Monthly Revenue per Customer (ARPU)</label>
+                    <div class="control-input-wrap">
+                      <span class="control-prefix curr-sym">₹</span>
+                      <input type="number" id="cacArpuNum" class="num-input" value="8500" min="100" step="100" />
+                    </div>
+                  </div>
+                  <input type="range" id="cacArpuRange" class="gold-slider" min="500" max="250000" step="500" value="8500" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacGmNum" class="control-label">Gross Margin % (After COGS &amp; Delivery)</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="cacGmNum" class="num-input" value="68" min="5" max="98" step="1" />
+                      <span class="control-suffix">%</span>
+                    </div>
+                  </div>
+                  <input type="range" id="cacGmRange" class="gold-slider" min="10" max="95" step="1" value="68" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacChurnNum" class="control-label">Monthly Customer Logo Churn %</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="cacChurnNum" class="num-input" value="2.5" min="0.2" max="30" step="0.1" />
+                      <span class="control-suffix">%</span>
+                    </div>
+                  </div>
+                  <input type="range" id="cacChurnRange" class="gold-slider" min="0.5" max="20" step="0.5" value="2.5" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="cacExpNum" class="control-label">Monthly Net Expansion / Upsell %</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="cacExpNum" class="num-input" value="1.0" min="0" max="15" step="0.2" />
+                      <span class="control-suffix">%</span>
+                    </div>
+                  </div>
+                  <input type="range" id="cacExpRange" class="gold-slider" min="0" max="10" step="0.2" value="1.0" />
+                </div>
+              </div>
+
+              <!-- Right Column: Live Outputs, Chart & 3-Lever Sensitivity -->
+              <div style="display: flex; flex-direction: column; gap: 18px;">
+                <div class="wb-box">
+                  <div class="wb-box-title">
+                    <span>2. Unit-Economic Health &amp; Payback Rating</span>
+                    <span id="cacBenchmarkBadge" class="status-badge badge-green">BEST · 4.3 MO</span>
+                  </div>
+
+                  <div class="kpi-grid-4">
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">Paid CAC</div>
+                      <div class="kpi-tile-value text-gold" id="outPaidCac">₹25,000</div>
+                      <div class="kpi-tile-sub" id="outBlendedCac">Blended: ₹16,667</div>
+                    </div>
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">CAC Payback</div>
+                      <div class="kpi-tile-value" id="outPaybackMonths">4.3 mo</div>
+                      <div class="kpi-tile-sub" id="outBlendedPayback">Blended: 2.9 mo</div>
+                    </div>
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">Honest 24m LTV</div>
+                      <div class="kpi-tile-value" id="outHonestLtv">₹1,16,800</div>
+                      <div class="kpi-tile-sub" id="outSimpleLtv">Uncapped: ₹2.31L</div>
+                    </div>
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">LTV : Paid CAC</div>
+                      <div class="kpi-tile-value" id="outLtvCacRatio">4.7x</div>
+                      <div class="kpi-tile-sub" id="outMonthlyGp">GP/Mo: ₹5,780</div>
+                    </div>
+                  </div>
+
+                  <!-- 24-Month Cumulative Cash Recovery SVG Chart -->
+                  <div style="margin-top: 18px; background: var(--bg-slate); border: 1px solid var(--border-hairline); border-radius: var(--radius-sm); padding: 14px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 6px;">
+                      <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted);">24-MONTH CUMULATIVE GROSS PROFIT VS. PAID CAC RECOVERY</span>
+                      <span id="outBreakEvenTag" style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-amber);">BREAKEVEN: MONTH 5</span>
+                    </div>
+                    <svg id="paybackChartSvg" viewBox="0 0 520 175" width="100%" height="auto" role="img" aria-label="24-month customer payback recovery curve"></svg>
+                  </div>
+
+                  <div id="cacDiagnosticText" class="diagnostic-banner"></div>
+                </div>
+
+                <!-- The Three Load-Bearing Levers Sensitivity Box -->
+                <div class="wb-box">
+                  <div class="wb-box-title">
+                    <span>3. The Three Load-Bearing Levers (Payback Sensitivity)</span>
+                    <span style="color: var(--text-muted);">WHICH FIX MOVES P&amp;L FASTEST?</span>
+                  </div>
+                  <div class="lever-grid" id="threeLeversGrid"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               TAB 2: CONTRIBUTION-MARGIN (CM2) & TRUE nCAC / MER ROAS CALCULATOR
+               ================================================================ -->
+          <div id="panel-roas" class="tool-panel" role="tabpanel" aria-labelledby="tab-roas">
+            <div class="workbench-grid">
+              <!-- Left Column: Inputs -->
+              <div class="wb-box">
+                <div class="wb-box-title">
+                  <span>1. Media &amp; Order Economics Inputs</span>
+                  <span style="color: var(--text-muted);">CM2 TRUTH ENGINE</span>
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasSpendNum" class="control-label">Total Paid Media Spend</label>
+                    <div class="control-input-wrap">
+                      <span class="control-prefix curr-sym">₹</span>
+                      <input type="number" id="roasSpendNum" class="num-input" value="1000000" min="1000" step="5000" />
+                    </div>
+                  </div>
+                  <input type="range" id="roasSpendRange" class="gold-slider" min="50000" max="10000000" step="50000" value="1000000" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasNewRevNum" class="control-label">New-to-Brand Revenue (First-Order)</label>
+                    <div class="control-input-wrap">
+                      <span class="control-prefix curr-sym">₹</span>
+                      <input type="number" id="roasNewRevNum" class="num-input" value="2200000" min="0" step="10000" />
+                    </div>
+                  </div>
+                  <input type="range" id="roasNewRevRange" class="gold-slider" min="0" max="25000000" step="50000" value="2200000" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasRetRevNum" class="control-label">Retargeting / Repeat Revenue Claimed</label>
+                    <div class="control-input-wrap">
+                      <span class="control-prefix curr-sym">₹</span>
+                      <input type="number" id="roasRetRevNum" class="num-input" value="1400000" min="0" step="10000" />
+                    </div>
+                  </div>
+                  <input type="range" id="roasRetRevRange" class="gold-slider" min="0" max="20000000" step="50000" value="1400000" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasOrganicRevNum" class="control-label">Organic / Direct Store Revenue</label>
+                    <div class="control-input-wrap">
+                      <span class="control-prefix curr-sym">₹</span>
+                      <input type="number" id="roasOrganicRevNum" class="num-input" value="1800000" min="0" step="10000" />
+                    </div>
+                  </div>
+                  <input type="range" id="roasOrganicRevRange" class="gold-slider" min="0" max="25000000" step="50000" value="1800000" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasNewCustNum" class="control-label">New Customers Acquired</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="roasNewCustNum" class="num-input" value="880" min="1" step="1" />
+                    </div>
+                  </div>
+                  <input type="range" id="roasNewCustRange" class="gold-slider" min="10" max="10000" step="10" value="880" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasCogsNum" class="control-label">Product COGS % of Revenue</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="roasCogsNum" class="num-input" value="38" min="0" max="90" step="1" />
+                      <span class="control-suffix">%</span>
+                    </div>
+                  </div>
+                  <input type="range" id="roasCogsRange" class="gold-slider" min="5" max="80" step="1" value="38" />
+                </div>
+
+                <div class="control-group">
+                  <div class="control-header">
+                    <label for="roasVarCostNum" class="control-label">Shipping, Gateway &amp; RTO / Returns %</label>
+                    <div class="control-input-wrap">
+                      <input type="number" id="roasVarCostNum" class="num-input" value="14" min="0" max="60" step="1" />
+                      <span class="control-suffix">%</span>
+                    </div>
+                  </div>
+                  <input type="range" id="roasVarCostRange" class="gold-slider" min="0" max="45" step="1" value="14" />
+                </div>
+              </div>
+
+              <!-- Right Column: Platform Illusion vs P&L Reality -->
+              <div style="display: flex; flex-direction: column; gap: 18px;">
+                <div class="wb-box">
+                  <div class="wb-box-title">
+                    <span>2. Platform RoAS Illusion vs. P&amp;L Reality</span>
+                    <span id="roasHealthBadge" class="status-badge badge-amber">THIN MARGIN</span>
+                  </div>
+
+                  <div class="kpi-grid-4">
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">Platform RoAS</div>
+                      <div class="kpi-tile-value" id="outPlatformRoas">3.60x</div>
+                      <div class="kpi-tile-sub">Includes retargeting</div>
+                    </div>
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">True New RoAS</div>
+                      <div class="kpi-tile-value text-gold" id="outTrueNewRoas">2.20x</div>
+                      <div class="kpi-tile-sub" id="outBreakevenRoas">Break-Even: 2.08x</div>
+                    </div>
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">Blended MER</div>
+                      <div class="kpi-tile-value" id="outMer">5.40x</div>
+                      <div class="kpi-tile-sub" id="outMerPct">Spend % Rev: 18.5%</div>
+                    </div>
+                    <div class="kpi-tile">
+                      <div class="kpi-tile-label">True nCAC</div>
+                      <div class="kpi-tile-value" id="outTrueNcac">₹1,136</div>
+                      <div class="kpi-tile-sub" id="outAov">New AOV: ₹2,500</div>
+                    </div>
+                  </div>
+
+                  <!-- First-Order CM2 Waterfall Breakdown -->
+                  <div style="margin-top: 18px; background: var(--bg-slate); border: 1px solid var(--border-hairline); border-radius: var(--radius-sm); padding: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+                      <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">FIRST-ORDER CONTRIBUTION MARGIN (CM2) WATERFALL — NEW CUSTOMERS</span>
+                      <span id="outCm2MarginPct" style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--accent-amber);">PRE-AD CM1: 48%</span>
+                    </div>
+                    <div id="roasWaterfallBars" style="display: flex; flex-direction: column; gap: 10px;"></div>
+                  </div>
+
+                  <div id="roasDiagnosticText" class="diagnostic-banner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               TAB 3: FCMO GROWTH SCORECARD (WoW · MoM · QoQ · YoY)
+               ================================================================ -->
+          <div id="panel-scorecard" class="tool-panel" role="tabpanel" aria-labelledby="tab-scorecard">
+            <div class="wb-box">
+              <div class="tool-toolbar">
+                <div class="pill-toggle-row" style="margin-bottom: 0;" role="group" aria-label="Select Reporting Cadence">
+                  <button type="button" class="mini-pill-btn active" data-cadence="wow">WoW · Weekly Velocity</button>
+                  <button type="button" class="mini-pill-btn" data-cadence="mom">MoM · Funnel &amp; CAC</button>
+                  <button type="button" class="mini-pill-btn" data-cadence="qoq">QoQ · Retention &amp; Payback</button>
+                  <button type="button" class="mini-pill-btn" data-cadence="yoy">YoY · Moat &amp; Enterprise Value</button>
+                </div>
+
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                  <button type="button" class="action-chip-btn" id="copyScorecardBtn">Copy Executive Summary</button>
+                  <button type="button" class="action-chip-btn" id="exportScorecardCsvBtn">Export CSV ↓</button>
+                </div>
+              </div>
+
+              <div id="scorecardFeedback" style="font-family: var(--font-mono); font-size: 0.74rem; color: var(--accent-amber); margin-bottom: 10px; min-height: 18px;"></div>
+
+              <div class="table-scroll">
+                <table class="exec-table" aria-label="FCMO Growth Scorecard Table">
+                  <thead>
+                    <tr>
+                      <th>Metric &amp; Owner Anchor</th>
+                      <th>Target</th>
+                      <th>Actual</th>
+                      <th>Pace / Variance</th>
+                      <th>Status</th>
+                      <th>P&amp;L Diagnostic Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="scorecardTableBody"></tbody>
+                </table>
+              </div>
+
+              <div style="margin-top: 16px;">
+                <label for="scorecardNotes" style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em;">
+                  Executive Commentary &amp; Bottleneck Decisions (Included in Export)
+                </label>
+                <textarea id="scorecardNotes" class="notes-box" placeholder="Add owner notes, pricing adjustments, or channel reallocation decisions...">Shift 20% of broad prospecting budget into high-intent search &amp; referral activation; hold blended CAC below 15% of Year-1 gross profit.</textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================================================================
+               TAB 4: WEEKLY 1-PAGE CMO & CHANNEL GOVERNANCE DASHBOARD
+               ================================================================ -->
+          <div id="panel-gov" class="tool-panel" role="tabpanel" aria-labelledby="tab-gov">
+            <div class="wb-box">
+              <div class="tool-toolbar">
+                <div>
+                  <span class="wb-box-title" style="margin-bottom: 2px;">Weekly 1-Page Executive Governance Report</span>
+                  <span style="font-size: 0.82rem; color: var(--text-muted);">Edit spend, revenue, CTR, or CPA below—kill-rules and budget pacing update automatically.</span>
+                </div>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                  <button type="button" class="action-chip-btn" id="addChannelRowBtn">+ Add Channel</button>
+                  <button type="button" class="action-chip-btn" id="printGovBtn">Print / Save 1-Page PDF</button>
+                </div>
+              </div>
+
+              <!-- 4-Quadrant Top Governance Summary -->
+              <div class="gov-top-grid">
+                <div class="kpi-tile">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span class="kpi-tile-label">Monthly Budget Cap</span>
+                    <input type="number" id="govBudgetCap" class="table-num-input" value="1500000" min="10000" step="25000" aria-label="Monthly Budget Cap" />
+                  </div>
+                  <div class="kpi-tile-value" id="govSpendPacing">₹11,40,000 (76%)</div>
+                  <div class="progress-track">
+                    <div class="progress-fill" id="govPacingBar" style="width: 76%;"></div>
+                  </div>
+                </div>
+
+                <div class="kpi-tile">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span class="kpi-tile-label">Target CPA Ceiling</span>
+                    <input type="number" id="govTargetCpa" class="table-num-input" value="2400" min="50" step="50" aria-label="Target CPA Ceiling" />
+                  </div>
+                  <div class="kpi-tile-value" id="govBlendedCpa">₹2,111</div>
+                  <div class="kpi-tile-sub" id="govCpaStatusText">12.0% below CPA ceiling</div>
+                </div>
+
+                <div class="kpi-tile">
+                  <div class="kpi-tile-label">Blended Channel MER</div>
+                  <div class="kpi-tile-value text-gold" id="govBlendedMer">4.39x</div>
+                  <div class="kpi-tile-sub" id="govTotalRevText">Attributed Rev: ₹50.0L</div>
+                </div>
+
+                <div class="kpi-tile">
+                  <div class="kpi-tile-label">Creative Fatigue &amp; Kill-Rules</div>
+                  <div class="kpi-tile-value" id="govKillCount">1 Flagged</div>
+                  <div class="kpi-tile-sub">Triggers if CTR &lt; 0.8% or CPA &gt; +25%</div>
+                </div>
+              </div>
+
+              <!-- Multi-Channel Governance Table -->
+              <div class="table-scroll">
+                <table class="exec-table" aria-label="Channel Governance and Kill-Rule Audit Table">
+                  <thead>
+                    <tr>
+                      <th>Channel / Campaign</th>
+                      <th>Spend</th>
+                      <th>Attributed Rev</th>
+                      <th>Customers</th>
+                      <th>CTR %</th>
+                      <th>Actual CPA</th>
+                      <th>MER</th>
+                      <th>Governance Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="govChannelTableBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools Section Call to Outcome Footer -->
+          <div class="synthesis-bar" style="margin-top: 26px;">
+            <div>
+              <h3 style="font-size: 1.18rem;">Want Surya to stress-test your live P&amp;L numbers with you?</h3>
+              <span class="micro-assurance" style="margin-top: 5px;">COMPLIMENTARY 30-MIN OWNER DIAGNOSTIC · NO AGENCY PITCH</span>
+            </div>
+            <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome">
+              Walk Away With Your 90-Day Margin Fix (Free 30-Min Session) →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 04: SEMINARS, CONFERENCES & SESSIONS -->
+    <section id="sessions" class="section" aria-labelledby="sessions-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">04 // Keynotes, Offsites &amp; Cohorts</span>
+          <h2 id="sessions-heading">Practitioner frameworks. Delivered live.</h2>
+          <p class="section-lead">
+            No motivational theatre or recycled agency slides. Every keynote, boardroom offsite, and academic session breaks down real P&amp;L growth mechanics—how pricing power, buyer psychology, and disciplined capital allocation compound bottom-line profit.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div>
+              <span class="card-tag">Forums · Summits · Panels</span>
+              <h3>Conference Keynotes</h3>
+              <p>
+                High-conviction talks for founder conclaves, industry summits, and CXO panels on resolving the topline-versus-margin divide, behavioral economics in pricing, and building self-funding growth engines.
+              </p>
+              <ul class="session-list">
+                <li>Growth Without Margin Erosion</li>
+                <li>The 24-Month Executive Incentive Trap</li>
+                <li>Behavioral Economics of B2B Trust</li>
+              </ul>
+            </div>
+            <div class="card-cta-wrap">
+              <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                Shape a Margin-First Keynote for Your Audience →
+              </a>
+              <span class="micro-assurance">30-MIN FREE AGENDA ALIGNMENT CALL</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div>
+              <span class="card-tag">Boards · Founders · CXO Teams</span>
+              <h3>Corporate Leadership Offsites</h3>
+              <p>
+                Private, half-day or full-day working sessions—on-site or virtual—where leadership teams audit funnel leaks, align sales and marketing around contribution margin, and leave with an executable 90-day P&amp;L playbook.
+              </p>
+              <ul class="session-list">
+                <li>On-Site / Virtual Executive Working Session</li>
+                <li>Live Funnel &amp; Pricing Stress-Test</li>
+                <li>90-Day Internal Execution Roadmap</li>
+              </ul>
+            </div>
+            <div class="card-cta-wrap">
+              <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                Pinpoint Your Leadership Team’s Funnel Leaks →
+              </a>
+              <span class="micro-assurance">30-MIN FREE OFFSITE SCOPING CALL</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div>
+              <span class="card-tag">MBA Cohorts · Incubators · Faculty</span>
+              <h3>B-School &amp; Incubator Sessions</h3>
+              <p>
+                Applied growth workshops for MBA students, educators, and early-stage incubator cohorts—grounding classroom theory in unit economics, AI-assisted marketing workflows, and founder-led GTM realities.
+              </p>
+              <ul class="session-list">
+                <li>Startup Mentor · NSRCEL (IIM Bangalore)</li>
+                <li>Unit-Economic GTM Simulations</li>
+                <li>AI-Native Marketing Architecture</li>
+              </ul>
+            </div>
+            <div class="card-cta-wrap">
+              <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                Design an Applied P&amp;L Module for Your Cohort →
+              </a>
+              <span class="micro-assurance">30-MIN FREE CURRICULUM SYNC</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="availability-strip">
+          AVAILABLE ON-SITE (BENGALURU / PAN-INDIA / GLOBAL) &amp; VIRTUAL · CUSTOMIZED TO AUDIENCE P&amp;L MATURITY
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 05: AEO / GEO EXECUTIVE Q&A BRIEFING -->
+    <section id="faq" class="section" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">05 // Owner Briefing · Direct Answers</span>
+          <h2 id="faq-heading">Straight answers on unit-economic growth.</h2>
+          <p class="section-lead">
+            Clear answers to how Apex Pragmatika operates, who we work with, and what you walk away with in our first conversation.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>
+              <span>How is a Build–Operate–Transfer Fractional CMO different from a marketing agency?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Traditional agencies earn retainers or media commissions tied to ad spend and top-line vanity metrics, creating permanent vendor dependency. Apex Pragmatika acts as an owner-aligned Fractional CMO: we fix your unit economics first (<strong>Build</strong>), run disciplined acquisition tied to contribution margin (<strong>Operate</strong>), and hire, train, and hand over the complete internal growth engine to your team (<strong>Transfer</strong>).
+              <div style="margin-top: 12px;">
+                <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                  Compare Your Current Agency Retainer Against BOT (Free 30 Min) →
+                </a>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Why does topline revenue growth so often erode profit margins?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Boards and public markets frequently reward 18-to-36-month executives for top-line velocity regardless of payback period, leading to discounted pricing and bloated customer acquisition costs (CAC). When a business scales unverified channels before fixing positioning, pricing power, and conversion leaks, every incremental rupee of revenue consumes cash flow instead of compounding net profit.
+              <div style="margin-top: 12px;">
+                <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                  Identify Where Your Acquisition Spend Leaks Cash (Free 30 Min) →
+                </a>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Which businesses benefit most from Apex Pragmatika?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Apex Pragmatika is built specifically for founder-led companies, profitable SMEs, and second-generation entrepreneurs who measure success in multi-decade cash flow and EBITDA—and who want to break past referral or status-quo ceilings without gambling margins on unproven ad spend.
+              <div style="margin-top: 12px;">
+                <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                  Assess Fit for Your Business Stage (Free 30 Min) →
+                </a>
+              </div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>What happens during the complimentary 30-minute P&amp;L growth diagnostic?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              There is no pitch deck. You bring your current revenue mix, customer acquisition challenges, or margin constraints, and we run a focused 30-minute unit-economic stress test. You leave the call with a concrete diagnosis of where profit is leaking and your highest-leverage next move—whether we work together or not.
+              <div style="margin-top: 12px;">
+                <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="outcome-link">
+                  Claim Your 30-Minute Profit Diagnostic →
+                </a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 06: FINAL CALL TO OUTCOME BLOCK -->
+    <section id="contact" class="section" style="border-bottom: none;" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="cta-box">
+          <span class="eyebrow">06 // Start With Clarity</span>
+          <h2 id="contact-heading" style="max-width: 22ch;">
+            Thirty minutes. Zero cost. Complete clarity on your profit math.
+          </h2>
+          <p class="section-lead" style="max-width: 60ch;">
+            Bring your current revenue mix, customer acquisition challenges, or margin constraints. You will leave the call with a clear diagnosis of where profit is leaking—whether we work together or not.
+          </p>
+
+          <div style="margin-top: 32px;">
+            <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" class="btn-outcome">
+              Walk Away With Your Profitable Growth Roadmap (Free 30 Min) →
+            </a>
+            <span class="micro-assurance">COMPLIMENTARY 30-MIN OWNER SESSION · DIRECTLY WITH SURYA NARAYANAN</span>
+          </div>
+
+          <div class="cta-channels">
+            <div class="channel-item">
+              <span class="channel-label">Direct Executive Email</span>
+              <a href="mailto:surya@heliosurya.github.io" class="channel-value">surya@heliosurya.github.io</a>
+            </div>
+            <div class="channel-item">
+              <span class="channel-label">Executive Profile</span>
+              <a href="https://www.linkedin.com/in/nsuryanarayanan/" target="_blank" rel="noopener noreferrer" class="channel-value">linkedin.com/in/nsuryanarayanan ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        © 2026 <strong style="color: var(--text-white);">Apex Pragmatika</strong> · Surya Narayanan. Built for profitable, multi-decade growth.
+      </div>
+      <div class="footer-links">
+        <a href="mailto:surya@heliosurya.github.io">surya@heliosurya.github.io</a>
+        <a href="https://www.linkedin.com/in/nsuryanarayanan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="apex-privacy-policy.html">Privacy Policy</a>
+        <a href="apex-terms-of-service.html">Terms of Service</a>
+      </div>
+    </div>
   </footer>
 
+  <!-- ========================================================================
+       INTERACTIVE LOGIC: NAVIGATION + VAULT CALCULATORS & REPORTING SUITE
+       ======================================================================== -->
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    (function () {
+      /* ----------------------------------------------------------------------
+         1. MOBILE DRAWER NAVIGATION
+         ---------------------------------------------------------------------- */
+      const menuBtn = document.getElementById('mobileMenuToggle');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+      if (menuBtn && mobileDrawer) {
+        menuBtn.addEventListener('click', function () {
+          const isOpen = mobileDrawer.classList.toggle('open');
+          menuBtn.setAttribute('aria-expanded', String(isOpen));
+        });
+        mobileLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            mobileDrawer.classList.remove('open');
+            menuBtn.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+
+      /* ----------------------------------------------------------------------
+         2. CURRENCY & FORMATTING ENGINE (INR LAKHS/CRORES & USD)
+         ---------------------------------------------------------------------- */
+      let currentCurrency = 'INR';
+
+      function fmtMoney(val, compact) {
+        const sign = val < 0 ? '-' : '';
+        const abs = Math.abs(val);
+        if (currentCurrency === 'INR') {
+          if (compact && abs >= 10000000) return sign + '₹' + (abs / 10000000).toFixed(2) + ' Cr';
+          if (compact && abs >= 100000) return sign + '₹' + (abs / 100000).toFixed(2) + ' L';
+          return sign + '₹' + Math.round(abs).toLocaleString('en-IN');
+        } else {
+          if (compact && abs >= 1000000) return sign + '$' + (abs / 1000000).toFixed(2) + 'M';
+          if (compact && abs >= 10000) return sign + '$' + (abs / 1000).toFixed(1) + 'K';
+          return sign + '$' + Math.round(abs).toLocaleString('en-US');
+        }
+      }
+
+      document.querySelectorAll('.currency-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const next = btn.getAttribute('data-currency');
+          if (next === currentCurrency) return;
+          const factor = next === 'USD' ? 0.012 : 83.3333;
+          currentCurrency = next;
+
+          document.querySelectorAll('.currency-btn').forEach(function (b) {
+            b.classList.toggle('active', b.getAttribute('data-currency') === currentCurrency);
+          });
+          document.querySelectorAll('.curr-sym').forEach(function (el) {
+            el.textContent = currentCurrency === 'INR' ? '₹' : '$';
+          });
+
+          // Scale monetary inputs gracefully so presets remain realistic
+          ['cacSpend', 'cacArpu', 'roasSpend', 'roasNewRev', 'roasRetRev', 'roasOrganicRev'].forEach(function (prefix) {
+            const numEl = document.getElementById(prefix + 'Num');
+            const rngEl = document.getElementById(prefix + 'Range');
+            if (numEl && rngEl) {
+              const newVal = Math.max(10, Math.round(parseFloat(numEl.value) * factor));
+              rngEl.min = Math.max(10, Math.round(parseFloat(rngEl.min) * factor));
+              rngEl.max = Math.max(100, Math.round(parseFloat(rngEl.max) * factor));
+              rngEl.step = Math.max(1, Math.round(parseFloat(rngEl.step) * factor));
+              numEl.value = newVal;
+              rngEl.value = newVal;
+            }
+          });
+
+          const capEl = document.getElementById('govBudgetCap');
+          const cpaEl = document.getElementById('govTargetCpa');
+          if (capEl) capEl.value = Math.max(500, Math.round(parseFloat(capEl.value) * factor));
+          if (cpaEl) cpaEl.value = Math.max(10, Math.round(parseFloat(cpaEl.value) * factor));
+
+          govChannels.forEach(function (ch) {
+            ch.spend = Math.max(100, Math.round(ch.spend * factor));
+            ch.rev = Math.max(100, Math.round(ch.rev * factor));
+          });
+
+          recalcCac();
+          recalcRoas();
+          renderScorecard();
+          renderGovTable();
+        });
+      });
+
+      /* ----------------------------------------------------------------------
+         3. TOOL TAB SWITCHER
+         ---------------------------------------------------------------------- */
+      document.querySelectorAll('.tool-tab-btn').forEach(function (tabBtn) {
+        tabBtn.addEventListener('click', function () {
+          const targetId = tabBtn.getAttribute('data-tab');
+          document.querySelectorAll('.tool-tab-btn').forEach(function (b) {
+            const isTarget = b === tabBtn;
+            b.classList.toggle('active', isTarget);
+            b.setAttribute('aria-selected', String(isTarget));
+          });
+          document.querySelectorAll('.tool-panel').forEach(function (panel) {
+            panel.classList.toggle('active', panel.id === targetId);
+          });
+        });
+      });
+
+      function bindPair(prefix, callback) {
+        const numEl = document.getElementById(prefix + 'Num');
+        const rngEl = document.getElementById(prefix + 'Range');
+        if (!numEl || !rngEl) return;
+        rngEl.addEventListener('input', function () {
+          numEl.value = rngEl.value;
+          callback();
+        });
+        numEl.addEventListener('input', function () {
+          const val = parseFloat(numEl.value);
+          if (!isNaN(val)) {
+            rngEl.value = Math.min(parseFloat(rngEl.max), Math.max(parseFloat(rngEl.min), val));
+            callback();
+          }
+        });
+      }
+
+      /* ----------------------------------------------------------------------
+         4. TOOL 1: CAC PAYBACK, 24-MONTH HONEST LTV & THREE-LEVER SIMULATOR
+         ---------------------------------------------------------------------- */
+      let billingMode = 'monthly';
+      document.querySelectorAll('[data-billing]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          billingMode = btn.getAttribute('data-billing');
+          document.querySelectorAll('[data-billing]').forEach(function (b) {
+            b.classList.toggle('active', b === btn);
+          });
+          const lbl = document.getElementById('cacArpuLabel');
+          if (lbl) {
+            lbl.textContent = billingMode === 'monthly'
+              ? 'Monthly Revenue per Customer (ARPU)'
+              : 'Annual Contract Value per Customer (ACV)';
+          }
+          recalcCac();
+        });
+      });
+
+      document.getElementById('cacSegment').addEventListener('change', recalcCac);
+
+      function calcHonest24mLtv(monthlyGp, monthlyChurnRate, monthlyExpRate) {
+        let cumulative = 0;
+        let activeCohort = 1.0;
+        let revFactor = 1.0;
+        for (let m = 1; m <= 24; m++) {
+          cumulative += monthlyGp * activeCohort * revFactor;
+          activeCohort = Math.max(0, activeCohort * (1 - monthlyChurnRate));
+          revFactor = revFactor * (1 + monthlyExpRate);
+        }
+        return cumulative;
+      }
+
+      function calcPaybackMonths(cac, monthlyGp, monthlyChurnRate, monthlyExpRate) {
+        if (monthlyGp <= 0) return Infinity;
+        let cumulative = -cac;
+        let activeCohort = 1.0;
+        let revFactor = 1.0;
+        for (let m = 1; m <= 60; m++) {
+          const monthContribution = monthlyGp * activeCohort * revFactor;
+          if (cumulative + monthContribution >= 0) {
+            const fraction = Math.abs(cumulative) / monthContribution;
+            return (m - 1) + fraction;
+          }
+          cumulative += monthContribution;
+          activeCohort = Math.max(0, activeCohort * (1 - monthlyChurnRate));
+          revFactor = revFactor * (1 + monthlyExpRate);
+        }
+        return 60.1;
+      }
+
+      function recalcCac() {
+        const spend = Math.max(0, parseFloat(document.getElementById('cacSpendNum').value) || 0);
+        const paidCust = Math.max(1, parseFloat(document.getElementById('cacPaidCustNum').value) || 1);
+        const orgCust = Math.max(0, parseFloat(document.getElementById('cacOrgCustNum').value) || 0);
+        const rawRev = Math.max(1, parseFloat(document.getElementById('cacArpuNum').value) || 1);
+        const gmPct = Math.min(99, Math.max(1, parseFloat(document.getElementById('cacGmNum').value) || 50)) / 100;
+        const churnPct = Math.min(50, Math.max(0.1, parseFloat(document.getElementById('cacChurnNum').value) || 2.5)) / 100;
+        const expPct = Math.min(25, Math.max(0, parseFloat(document.getElementById('cacExpNum').value) || 0)) / 100;
+        const segment = document.getElementById('cacSegment').value;
+
+        const monthlyArpu = billingMode === 'annual' ? rawRev / 12 : rawRev;
+        const monthlyGp = monthlyArpu * gmPct;
+        const paidCac = spend / paidCust;
+        const blendedCac = spend / (paidCust + orgCust);
+
+        const paybackMo = calcPaybackMonths(paidCac, monthlyGp, churnPct, expPct);
+        const blendedPaybackMo = calcPaybackMonths(blendedCac, monthlyGp, churnPct, expPct);
+
+        const simpleLtv = monthlyGp / churnPct;
+        const honestLtv = calcHonest24mLtv(monthlyGp, churnPct, expPct);
+        const ltvCacRatio = honestLtv / paidCac;
+
+        document.getElementById('outPaidCac').textContent = fmtMoney(paidCac, false);
+        document.getElementById('outBlendedCac').textContent = 'Blended: ' + fmtMoney(blendedCac, false);
+        document.getElementById('outPaybackMonths').textContent = paybackMo > 60 ? '>60 mo' : paybackMo.toFixed(1) + ' mo';
+        document.getElementById('outBlendedPayback').textContent = 'Blended: ' + (blendedPaybackMo > 60 ? '>60 mo' : blendedPaybackMo.toFixed(1) + ' mo');
+        document.getElementById('outHonestLtv').textContent = fmtMoney(honestLtv, true);
+        document.getElementById('outSimpleLtv').textContent = 'Uncapped: ' + fmtMoney(simpleLtv, true);
+        document.getElementById('outLtvCacRatio').textContent = ltvCacRatio.toFixed(1) + 'x';
+        document.getElementById('outMonthlyGp').textContent = 'GP/Mo: ' + fmtMoney(monthlyGp, false);
+
+        // Bessemer 5-Band Rating Scale adapted to Segment
+        const badgeEl = document.getElementById('cacBenchmarkBadge');
+        let bandLabel = '';
+        let badgeClass = 'status-badge ';
+        const mult = segment === 'd2c' ? 0.65 : (segment === 'ent' ? 1.35 : 1.0);
+
+        if (paybackMo <= 6 * mult) {
+          bandLabel = 'BEST · ' + paybackMo.toFixed(1) + ' MO';
+          badgeClass += 'badge-green';
+        } else if (paybackMo <= 12 * mult) {
+          bandLabel = 'BETTER · ' + paybackMo.toFixed(1) + ' MO';
+          badgeClass += 'badge-green';
+        } else if (paybackMo <= 18 * mult) {
+          bandLabel = 'GOOD · ' + paybackMo.toFixed(1) + ' MO';
+          badgeClass += 'badge-amber';
+        } else if (paybackMo <= 24 * mult) {
+          bandLabel = 'CONCERNING · ' + paybackMo.toFixed(1) + ' MO';
+          badgeClass += 'badge-red';
+        } else {
+          bandLabel = 'CRITICAL · ' + (paybackMo > 60 ? '>60' : paybackMo.toFixed(1)) + ' MO';
+          badgeClass += 'badge-red';
+        }
+        badgeEl.className = badgeClass;
+        badgeEl.textContent = bandLabel;
+
+        // Diagnostic Insight
+        const diagEl = document.getElementById('cacDiagnosticText');
+        if (paybackMo > 18) {
+          diagEl.innerHTML = '<strong style="color: var(--status-red);">Capital Trap Warning:</strong> At <strong>' + (paybackMo > 60 ? '>60' : paybackMo.toFixed(1)) + ' months</strong> payback, scaling acquisition will drain working capital faster than customers repay CAC. Notice how uncapped LTV (' + fmtMoney(simpleLtv, true) + ') overstates real 24-month cash recovery (' + fmtMoney(honestLtv, true) + ').';
+        } else if (ltvCacRatio < 3) {
+          diagEl.innerHTML = '<strong style="color: var(--accent-amber);">Thin Margin Cushion:</strong> Payback is ' + paybackMo.toFixed(1) + ' months, but 24-month Honest LTV:CAC is <strong>' + ltvCacRatio.toFixed(1) + 'x</strong> (below the 3.0x owner safety floor). Improve conversion or gross margin before increasing ad spend.';
+        } else {
+          diagEl.innerHTML = '<strong style="color: var(--status-green);">Self-Funding Growth Engine:</strong> Paid CAC recovers in <strong>' + paybackMo.toFixed(1) + ' months</strong> with a <strong>' + ltvCacRatio.toFixed(1) + 'x</strong> 24-month Honest LTV:CAC ratio. Every acquisition cohort funds the next without external capital burn.';
+        }
+
+        // Draw 24-Month Cumulative Recovery Curve
+        drawPaybackSvg(paidCac, monthlyGp, churnPct, expPct, paybackMo);
+
+        // Compute Three Load-Bearing Levers Sensitivity
+        const pbLessCac = calcPaybackMonths(paidCac * 0.80, monthlyGp, churnPct, expPct);
+        const pbMoreGm = calcPaybackMonths(paidCac, monthlyArpu * Math.min(0.98, gmPct + 0.05), churnPct, expPct);
+        const pbMoreExp = calcPaybackMonths(paidCac, monthlyGp, churnPct, expPct + 0.02);
+
+        const levers = [
+          {
+            title: 'Lever 1: Cut Paid CAC -20%',
+            desc: 'Tighter targeting & funnel conversion',
+            newPb: pbLessCac,
+            saved: Math.max(0, paybackMo - pbLessCac)
+          },
+          {
+            title: 'Lever 2: Gross Margin +5 pts',
+            desc: 'Pricing power & COGS discipline',
+            newPb: pbMoreGm,
+            saved: Math.max(0, paybackMo - pbMoreGm)
+          },
+          {
+            title: 'Lever 3: Expansion +2%/mo',
+            desc: 'Account expansion & retention loops',
+            newPb: pbMoreExp,
+            saved: Math.max(0, paybackMo - pbMoreExp)
+          }
+        ];
+
+        const maxSaved = Math.max.apply(null, levers.map(function (l) { return l.saved; }));
+        const leversGrid = document.getElementById('threeLeversGrid');
+        leversGrid.innerHTML = levers.map(function (l) {
+          const isWinner = l.saved > 0 && Math.abs(l.saved - maxSaved) < 0.05;
+          return (
+            '<div class="lever-card' + (isWinner ? ' winner' : '') + '">' +
+              '<div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">' +
+                '<strong style="font-family:var(--font-display); font-size:0.88rem; color:#fff;">' + l.title + '</strong>' +
+                (isWinner ? '<span class="nav-live-badge">FASTEST</span>' : '') +
+              '</div>' +
+              '<p style="font-size:0.76rem; color:var(--text-muted); margin-top:4px;">' + l.desc + '</p>' +
+              '<div style="margin-top:10px; font-family:var(--font-mono); font-size:0.95rem; color:var(--accent-amber); font-weight:600;">' +
+                (l.newPb > 60 ? '>60 mo' : l.newPb.toFixed(1) + ' mo') +
+                ' <span style="font-size:0.72rem; color:var(--status-green);">(-' + l.saved.toFixed(1) + ' mo)</span>' +
+              '</div>' +
+            '</div>'
+          );
+        }).join('');
+      }
+
+      function drawPaybackSvg(cac, monthlyGp, churnRate, expRate, paybackMo) {
+        const svg = document.getElementById('paybackChartSvg');
+        const beTag = document.getElementById('outBreakEvenTag');
+        if (!svg) return;
+
+        const points = [];
+        let cum = -cac;
+        let cohort = 1.0;
+        let revFactor = 1.0;
+        points.push({ m: 0, val: cum });
+
+        for (let m = 1; m <= 24; m++) {
+          cum += monthlyGp * cohort * revFactor;
+          points.push({ m: m, val: cum });
+          cohort = Math.max(0, cohort * (1 - churnRate));
+          revFactor = revFactor * (1 + expRate);
+        }
+
+        const minVal = Math.min(-cac, points[points.length - 1].val);
+        const maxVal = Math.max(cac * 0.4, points[points.length - 1].val);
+        const span = Math.max(1, maxVal - minVal);
+
+        const padL = 54, padR = 16, padT = 16, padB = 26;
+        const w = 520 - padL - padR;
+        const h = 175 - padT - padB;
+
+        function getX(m) { return padL + (m / 24) * w; }
+        function getY(v) { return padT + ((maxVal - v) / span) * h; }
+
+        const zeroY = getY(0);
+        const pathD = points.map(function (pt, idx) {
+          return (idx === 0 ? 'M' : 'L') + getX(pt.m).toFixed(1) + ' ' + getY(pt.val).toFixed(1);
+        }).join(' ');
+
+        const beMonth = Math.ceil(paybackMo);
+        beTag.textContent = paybackMo <= 24 ? ('BREAKEVEN: MONTH ' + beMonth) : 'UNRECOVERED AT MONTH 24';
+        beTag.style.color = paybackMo <= 12 ? 'var(--status-green)' : (paybackMo <= 24 ? 'var(--accent-amber)' : 'var(--status-red)');
+
+        let beMarker = '';
+        if (paybackMo <= 24) {
+          const bx = getX(paybackMo).toFixed(1);
+          beMarker =
+            '<circle cx="' + bx + '" cy="' + zeroY.toFixed(1) + '" r="5" fill="#FBBF24" stroke="#121216" stroke-width="2"/>' +
+            '<text x="' + Math.min(440, parseFloat(bx) + 8).toFixed(1) + '" y="' + (zeroY - 8).toFixed(1) + '" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="9.5" font-weight="600">PAYBACK (' + paybackMo.toFixed(1) + 'm)</text>';
+        }
+
+        svg.innerHTML =
+          '<line x1="' + padL + '" y1="' + zeroY.toFixed(1) + '" x2="' + (520 - padR) + '" y2="' + zeroY.toFixed(1) + '" stroke="rgba(255,255,255,0.28)" stroke-dasharray="4 4"/>' +
+          '<text x="6" y="' + (zeroY + 3).toFixed(1) + '" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-size="9">' + fmtMoney(0, true) + '</text>' +
+          '<text x="6" y="' + (getY(-cac) + 3).toFixed(1) + '" fill="#F87171" font-family="JetBrains Mono, monospace" font-size="9">' + fmtMoney(-cac, true) + '</text>' +
+          '<text x="6" y="' + (padT + 8) + '" fill="#10B981" font-family="JetBrains Mono, monospace" font-size="9">' + fmtMoney(maxVal, true) + '</text>' +
+          '<path d="' + pathD + '" fill="none" stroke="#FBBF24" stroke-width="2.8" stroke-linecap="round"/>' +
+          beMarker +
+          '<text x="' + padL + '" y="168" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-size="9">M0 (CAC OUTLAY)</text>' +
+          '<text x="' + getX(12).toFixed(1) + '" y="168" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-size="9">M12</text>' +
+          '<text x="' + (getX(24) - 22).toFixed(1) + '" y="168" fill="#9CA3AF" font-family="JetBrains Mono, monospace" font-size="9">M24</text>';
+      }
+
+      ['cacSpend', 'cacPaidCust', 'cacOrgCust', 'cacArpu', 'cacGm', 'cacChurn', 'cacExp'].forEach(function (p) {
+        bindPair(p, recalcCac);
+      });
+
+      /* ----------------------------------------------------------------------
+         5. TOOL 2: CONTRIBUTION-MARGIN (CM2) & TRUE nCAC / MER ROAS CALCULATOR
+         ---------------------------------------------------------------------- */
+      function recalcRoas() {
+        const spend = Math.max(1, parseFloat(document.getElementById('roasSpendNum').value) || 1);
+        const newRev = Math.max(0, parseFloat(document.getElementById('roasNewRevNum').value) || 0);
+        const retRev = Math.max(0, parseFloat(document.getElementById('roasRetRevNum').value) || 0);
+        const orgRev = Math.max(0, parseFloat(document.getElementById('roasOrganicRevNum').value) || 0);
+        const newCust = Math.max(1, parseFloat(document.getElementById('roasNewCustNum').value) || 1);
+        const cogsPct = Math.min(95, Math.max(0, parseFloat(document.getElementById('roasCogsNum').value) || 0)) / 100;
+        const varPct = Math.min(80, Math.max(0, parseFloat(document.getElementById('roasVarCostNum').value) || 0)) / 100;
+
+        const platformClaimedRev = newRev + retRev;
+        const totalStoreRev = newRev + retRev + orgRev;
+
+        const platformRoas = platformClaimedRev / spend;
+        const trueNewRoas = newRev / spend;
+        const mer = totalStoreRev / spend;
+        const merPct = totalStoreRev > 0 ? (spend / totalStoreRev) * 100 : 0;
+        const trueNcac = spend / newCust;
+        const newAov = newRev / newCust;
+
+        const preAdCm1Pct = Math.max(0.01, 1 - cogsPct - varPct);
+        const breakEvenRoas = 1 / preAdCm1Pct;
+
+        const newOrderGrossMargin = newRev * preAdCm1Pct;
+        const netCm2Profit = newOrderGrossMargin - spend;
+        const cm2PerOrder = netCm2Profit / newCust;
+
+        document.getElementById('outPlatformRoas').textContent = platformRoas.toFixed(2) + 'x';
+        document.getElementById('outTrueNewRoas').textContent = trueNewRoas.toFixed(2) + 'x';
+        document.getElementById('outBreakevenRoas').textContent = 'Break-Even: ' + breakEvenRoas.toFixed(2) + 'x';
+        document.getElementById('outMer').textContent = mer.toFixed(2) + 'x';
+        document.getElementById('outMerPct').textContent = 'Spend % Rev: ' + merPct.toFixed(1) + '%';
+        document.getElementById('outTrueNcac').textContent = fmtMoney(trueNcac, false);
+        document.getElementById('outAov').textContent = 'New AOV: ' + fmtMoney(newAov, false);
+        document.getElementById('outCm2MarginPct').textContent = 'PRE-AD CM1: ' + Math.round(preAdCm1Pct * 100) + '%';
+
+        const healthBadge = document.getElementById('roasHealthBadge');
+        if (netCm2Profit > 0 && trueNewRoas >= breakEvenRoas * 1.15) {
+          healthBadge.className = 'status-badge badge-green';
+          healthBadge.textContent = 'PROFITABLE FIRST ORDER';
+        } else if (netCm2Profit >= 0) {
+          healthBadge.className = 'status-badge badge-amber';
+          healthBadge.textContent = 'NEAR BREAKEVEN';
+        } else {
+          healthBadge.className = 'status-badge badge-red';
+          healthBadge.textContent = 'FIRST-ORDER LOSS';
+        }
+
+        // Render Waterfall Bars
+        const maxBar = Math.max(newRev, spend, 1);
+        const barsData = [
+          { label: 'New-to-Brand Revenue', val: newRev, color: '#FFFFFF' },
+          { label: 'Less: COGS (' + Math.round(cogsPct * 100) + '%) & Fulfillment/RTO (' + Math.round(varPct * 100) + '%)', val: -(newRev * (cogsPct + varPct)), color: '#6B7280' },
+          { label: 'Pre-Ad Contribution (CM1)', val: newOrderGrossMargin, color: '#F59E0B' },
+          { label: 'Less: Paid Media Spend', val: -spend, color: '#F87171' },
+          { label: 'Net First-Order Profit (CM2)', val: netCm2Profit, color: netCm2Profit >= 0 ? '#10B981' : '#F87171' }
+        ];
+
+        document.getElementById('roasWaterfallBars').innerHTML = barsData.map(function (row) {
+          const pctWidth = Math.min(100, Math.round((Math.abs(row.val) / maxBar) * 100));
+          return (
+            '<div>' +
+              '<div style="display:flex; justify-content:space-between; font-family:var(--font-mono); font-size:0.74rem; margin-bottom:4px;">' +
+                '<span style="color:var(--text-body);">' + row.label + '</span>' +
+                '<span style="color:' + row.color + '; font-weight:600;">' + fmtMoney(row.val, true) + '</span>' +
+              '</div>' +
+              '<div class="progress-track" style="height:6px; margin-top:0;">' +
+                '<div class="progress-fill" style="width:' + pctWidth + '%; background:' + row.color + ';"></div>' +
+              '</div>' +
+            '</div>'
+          );
+        }).join('');
+
+        const diag = document.getElementById('roasDiagnosticText');
+        const illusionGap = (platformRoas - trueNewRoas).toFixed(2);
+        if (netCm2Profit < 0) {
+          diag.innerHTML = '<strong style="color:var(--status-red);">The Platform RoAS Illusion Exposed:</strong> Ad platforms report <strong>' + platformRoas.toFixed(2) + 'x RoAS</strong> by claiming ' + fmtMoney(retRev, true) + ' in retargeting/repeat orders, inflating apparent RoAS by <strong>+' + illusionGap + 'x</strong>. On true new-customer acquisition, you lose <strong>' + fmtMoney(Math.abs(cm2PerOrder), false) + ' per order</strong> (' + fmtMoney(netCm2Profit, true) + ' total) until True New RoAS clears <strong>' + breakEvenRoas.toFixed(2) + 'x</strong>.';
+        } else {
+          diag.innerHTML = '<strong style="color:var(--status-green);">Contribution-Positive Acquisition:</strong> Even after stripping out ' + fmtMoney(retRev, true) + ' of retargeting revenue, True New RoAS (<strong>' + trueNewRoas.toFixed(2) + 'x</strong>) beats your Break-Even RoAS threshold (<strong>' + breakEvenRoas.toFixed(2) + 'x</strong>), generating <strong>+' + fmtMoney(cm2PerOrder, false) + ' net CM2 profit</strong> on every new customer’s first order.';
+        }
+      }
+
+      ['roasSpend', 'roasNewRev', 'roasRetRev', 'roasOrganicRev', 'roasNewCust', 'roasCogs', 'roasVarCost'].forEach(function (p) {
+        bindPair(p, recalcRoas);
+      });
+
+      /* ----------------------------------------------------------------------
+         6. TOOL 3: FCMO GROWTH SCORECARD (WoW · MoM · QoQ · YoY)
+         ---------------------------------------------------------------------- */
+      let activeCadence = 'wow';
+      const scorecardData = {
+        wow: [
+          { metric: 'Qualified SQLs / High-Intent Leads', target: 45, actual: 42, unit: 'count', lowerBetter: false, action: 'Tighten landing page friction; audit search query match.' },
+          { metric: 'Paid CAC (Weekly Blended)', target: 2200, actual: 2480, unit: 'money', lowerBetter: true, action: 'Pause ad sets >1.25x target CPA; shift spend to top 2 creatives.' },
+          { metric: 'Lead-to-Discovery Show Rate %', target: 72, actual: 76, unit: 'pct', lowerBetter: false, action: 'Automated calendar reminders holding strong.' },
+          { metric: 'Weekly Pipeline Added', target: 1800000, actual: 1920000, unit: 'money', lowerBetter: false, action: 'Outpacing weekly target by +6.7%.' }
+        ],
+        mom: [
+          { metric: 'Marketing Efficiency Ratio (MER)', target: 4.5, actual: 4.2, unit: 'ratio', lowerBetter: false, action: 'Trim low-intent broad social spend; boost referral loop.' },
+          { metric: 'First-Order Contribution Margin (CM2 %)', target: 24, actual: 21, unit: 'pct', lowerBetter: false, action: 'Review bundle AOV & payment gateway / RTO leakage.' },
+          { metric: 'Organic & Referral Share of New Cust %', target: 35, actual: 38, unit: 'pct', lowerBetter: false, action: 'Strong compounding brand equity reducing blended CAC.' },
+          { metric: 'Sales Cycle Velocity (Days)', target: 21, actual: 24, unit: 'days', lowerBetter: true, action: 'Deploy CFO/Owner ROI one-pager after Call 1.' }
+        ],
+        qoq: [
+          { metric: 'CAC Payback Period (Months)', target: 9.0, actual: 8.2, unit: 'months', lowerBetter: true, action: 'Ahead of 9-month capital recovery ceiling.' },
+          { metric: 'Net Dollar Retention (NDR %)', target: 104, actual: 101, unit: 'pct', lowerBetter: false, action: 'Launch Q2 structured upsell play for top-decile accounts.' },
+          { metric: 'Gross Margin % (Post-Delivery)', target: 68, actual: 69, unit: 'pct', lowerBetter: false, action: 'Price realization holding firm without discounting.' },
+          { metric: 'Internal Team Ownership Readiness %', target: 75, actual: 70, unit: 'pct', lowerBetter: false, action: 'Complete SOP handover for paid search & weekly P&L ritual.' }
+        ],
+        yoy: [
+          { metric: 'EBITDA / Net Operating Margin %', target: 18, actual: 19.5, unit: 'pct', lowerBetter: false, action: 'Profitable scale achieved without agency bloat.' },
+          { metric: '24-Month Honest LTV : Paid CAC', target: 4.0, actual: 4.4, unit: 'ratio', lowerBetter: false, action: 'Healthy unit-economic moat; ready to scale winning pods.' },
+          { metric: 'Repeat / Annuity Revenue Share %', target: 55, actual: 52, unit: 'pct', lowerBetter: false, action: 'Introduce annual contract incentives at renewal.' },
+          { metric: 'External Agency Retainer Dependency %', target: 10, actual: 8, unit: 'pct', lowerBetter: true, action: 'Transfer phase successful; internal engine self-sustaining.' }
+        ]
+      };
+
+      function formatScoreVal(val, unit) {
+        if (unit === 'money') return fmtMoney(val, true);
+        if (unit === 'pct') return val.toFixed(1) + '%';
+        if (unit === 'ratio') return val.toFixed(2) + 'x';
+        if (unit === 'months') return val.toFixed(1) + ' mo';
+        if (unit === 'days') return Math.round(val) + ' d';
+        return Math.round(val).toLocaleString();
+      }
+
+      function renderScorecard() {
+        const tbody = document.getElementById('scorecardTableBody');
+        const rows = scorecardData[activeCadence] || [];
+        tbody.innerHTML = rows.map(function (row, idx) {
+          const rawRatio = row.lowerBetter
+            ? (row.target / Math.max(0.0001, row.actual))
+            : (row.actual / Math.max(0.0001, row.target));
+          const variancePct = ((row.actual - row.target) / Math.max(0.0001, row.target)) * 100;
+          const varStr = (variancePct >= 0 ? '+' : '') + variancePct.toFixed(1) + '%';
+
+          let statusHtml = '';
+          if (rawRatio >= 0.98) {
+            statusHtml = '<span class="status-badge badge-green">ON TRACK</span>';
+          } else if (rawRatio >= 0.85) {
+            statusHtml = '<span class="status-badge badge-amber">WATCH</span>';
+          } else {
+            statusHtml = '<span class="status-badge badge-red">INTERVENE</span>';
+          }
+
+          return (
+            '<tr>' +
+              '<td><strong style="color:#fff;">' + row.metric + '</strong><br><span style="font-family:var(--font-mono); font-size:0.68rem; color:var(--text-muted);">' + formatScoreVal(row.actual, row.unit) + ' vs ' + formatScoreVal(row.target, row.unit) + '</span></td>' +
+              '<td><input type="number" step="any" class="table-num-input sc-input" data-idx="' + idx + '" data-field="target" value="' + row.target + '" aria-label="Target for ' + row.metric + '"/></td>' +
+              '<td><input type="number" step="any" class="table-num-input sc-input" data-idx="' + idx + '" data-field="actual" value="' + row.actual + '" aria-label="Actual for ' + row.metric + '"/></td>' +
+              '<td style="font-family:var(--font-mono); font-weight:600; color:' + (rawRatio >= 0.98 ? 'var(--status-green)' : (rawRatio >= 0.85 ? 'var(--accent-amber)' : 'var(--status-red)')) + ';">' + varStr + '</td>' +
+              '<td>' + statusHtml + '</td>' +
+              '<td style="font-size:0.8rem; color:var(--text-body);">' + row.action + '</td>' +
+            '</tr>'
+          );
+        }).join('');
+
+        tbody.querySelectorAll('.sc-input').forEach(function (inp) {
+          inp.addEventListener('change', function () {
+            const idx = parseInt(inp.getAttribute('data-idx'), 10);
+            const field = inp.getAttribute('data-field');
+            const val = parseFloat(inp.value);
+            if (!isNaN(val)) {
+              scorecardData[activeCadence][idx][field] = val;
+              renderScorecard();
+            }
+          });
+        });
+      }
+
+      document.querySelectorAll('[data-cadence]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          activeCadence = btn.getAttribute('data-cadence');
+          document.querySelectorAll('[data-cadence]').forEach(function (b) {
+            b.classList.toggle('active', b === btn);
+          });
+          renderScorecard();
+        });
+      });
+
+      document.getElementById('copyScorecardBtn').addEventListener('click', function () {
+        const rows = scorecardData[activeCadence] || [];
+        const notes = document.getElementById('scorecardNotes').value.trim();
+        const lines = [
+          'APEX PRAGMATIKA — FCMO GROWTH SCORECARD (' + activeCadence.toUpperCase() + ')',
+          '=============================================================='
+        ];
+        rows.forEach(function (r) {
+          lines.push('• ' + r.metric + ': Actual ' + formatScoreVal(r.actual, r.unit) + ' vs Target ' + formatScoreVal(r.target, r.unit) + ' | Action: ' + r.action);
+        });
+        if (notes) lines.push('\nExecutive Notes: ' + notes);
+
+        const ta = document.createElement('textarea');
+        ta.value = lines.join('\n');
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+
+        const fb = document.getElementById('scorecardFeedback');
+        fb.textContent = '✓ ' + activeCadence.toUpperCase() + ' executive scorecard copied to clipboard.';
+        setTimeout(function () { fb.textContent = ''; }, 3500);
+      });
+
+      document.getElementById('exportScorecardCsvBtn').addEventListener('click', function () {
+        const rows = scorecardData[activeCadence] || [];
+        const csvLines = ['Cadence,Metric,Target,Actual,Action'];
+        rows.forEach(function (r) {
+          csvLines.push('"' + activeCadence.toUpperCase() + '","' + r.metric.replace(/"/g, '""') + '",' + r.target + ',' + r.actual + ',"' + r.action.replace(/"/g, '""') + '"');
+        });
+        const blob = new Blob([csvLines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'apex-pragmatika-fcmo-scorecard-' + activeCadence + '.csv';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+
+      /* ----------------------------------------------------------------------
+         7. TOOL 4: WEEKLY 1-PAGE CMO & CHANNEL GOVERNANCE DASHBOARD
+         ---------------------------------------------------------------------- */
+      const govChannels = [
+        { name: 'Google High-Intent Search', spend: 420000, rev: 2150000, cust: 220, ctr: 3.4 },
+        { name: 'Meta Advantage+ / Prospecting', spend: 480000, rev: 1450000, cust: 150, ctr: 0.65 },
+        { name: 'LinkedIn Executive ABM', spend: 160000, rev: 820000, cust: 85, ctr: 1.15 },
+        { name: 'Partner & Referral Activation', spend: 80000, rev: 580000, cust: 85, ctr: 4.2 }
+      ];
+
+      function renderGovTable() {
+        const tbody = document.getElementById('govChannelTableBody');
+        const cap = Math.max(1, parseFloat(document.getElementById('govBudgetCap').value) || 1500000);
+        const targetCpa = Math.max(1, parseFloat(document.getElementById('govTargetCpa').value) || 2400);
+
+        let totalSpend = 0;
+        let totalRev = 0;
+        let totalCust = 0;
+        let flaggedCount = 0;
+
+        tbody.innerHTML = govChannels.map(function (ch, idx) {
+          totalSpend += ch.spend;
+          totalRev += ch.rev;
+          totalCust += ch.cust;
+
+          const actualCpa = ch.cust > 0 ? ch.spend / ch.cust : ch.spend;
+          const chMer = ch.spend > 0 ? ch.rev / ch.spend : 0;
+
+          const isFatigued = ch.ctr < 0.8;
+          const isCpaBreach = actualCpa > targetCpa * 1.25;
+          const isWatch = !isFatigued && !isCpaBreach && actualCpa > targetCpa;
+
+          let actionBadge = '';
+          if (isFatigued || isCpaBreach) {
+            flaggedCount++;
+            const reason = isFatigued && isCpaBreach
+              ? 'KILL: CTR <0.8% & CPA +25%'
+              : (isFatigued ? 'REFRESH CREATIVE (CTR <0.8%)' : 'CUT SPEND (CPA >+25%)');
+            actionBadge = '<span class="status-badge badge-red">' + reason + '</span>';
+          } else if (isWatch) {
+            actionBadge = '<span class="status-badge badge-amber">WATCH BID CAP</span>';
+          } else {
+            actionBadge = '<span class="status-badge badge-green">SCALE WINNER</span>';
+          }
+
+          return (
+            '<tr>' +
+              '<td><strong style="color:#fff;">' + ch.name + '</strong></td>' +
+              '<td><input type="number" class="table-num-input gov-in" data-idx="' + idx + '" data-key="spend" value="' + ch.spend + '"/></td>' +
+              '<td><input type="number" class="table-num-input gov-in" data-idx="' + idx + '" data-key="rev" value="' + ch.rev + '"/></td>' +
+              '<td><input type="number" class="table-num-input gov-in" style="width:68px;" data-idx="' + idx + '" data-key="cust" value="' + ch.cust + '"/></td>' +
+              '<td><input type="number" step="0.05" class="table-num-input gov-in" style="width:68px;" data-idx="' + idx + '" data-key="ctr" value="' + ch.ctr + '"/></td>' +
+              '<td style="font-family:var(--font-mono); font-weight:600;">' + fmtMoney(actualCpa, false) + '</td>' +
+              '<td style="font-family:var(--font-mono); color:var(--accent-amber);">' + chMer.toFixed(2) + 'x</td>' +
+              '<td>' + actionBadge + '</td>' +
+            '</tr>'
+          );
+        }).join('');
+
+        const pacingPct = Math.round((totalSpend / cap) * 100);
+        document.getElementById('govSpendPacing').textContent = fmtMoney(totalSpend, true) + ' (' + pacingPct + '%)';
+        const bar = document.getElementById('govPacingBar');
+        bar.style.width = Math.min(100, pacingPct) + '%';
+        bar.style.backgroundColor = pacingPct > 100 ? 'var(--status-red)' : 'var(--accent-amber)';
+
+        const blendedCpa = totalCust > 0 ? totalSpend / totalCust : 0;
+        const cpaDiffPct = ((blendedCpa - targetCpa) / targetCpa) * 100;
+        document.getElementById('govBlendedCpa').textContent = fmtMoney(blendedCpa, false);
+        const cpaSub = document.getElementById('govCpaStatusText');
+        cpaSub.textContent = cpaDiffPct <= 0
+          ? Math.abs(cpaDiffPct).toFixed(1) + '% below CPA ceiling'
+          : cpaDiffPct.toFixed(1) + '% ABOVE CPA ceiling';
+        cpaSub.style.color = cpaDiffPct <= 0 ? 'var(--status-green)' : 'var(--status-red)';
+
+        const blendedMer = totalSpend > 0 ? totalRev / totalSpend : 0;
+        document.getElementById('govBlendedMer').textContent = blendedMer.toFixed(2) + 'x';
+        document.getElementById('govTotalRevText').textContent = 'Attributed Rev: ' + fmtMoney(totalRev, true);
+
+        const killEl = document.getElementById('govKillCount');
+        killEl.textContent = flaggedCount + (flaggedCount === 1 ? ' Flagged' : ' Flagged');
+        killEl.style.color = flaggedCount > 0 ? 'var(--status-red)' : 'var(--status-green)';
+
+        tbody.querySelectorAll('.gov-in').forEach(function (inp) {
+          inp.addEventListener('change', function () {
+            const idx = parseInt(inp.getAttribute('data-idx'), 10);
+            const key = inp.getAttribute('data-key');
+            const val = parseFloat(inp.value);
+            if (!isNaN(val)) {
+              govChannels[idx][key] = Math.max(0, val);
+              renderGovTable();
+            }
+          });
+        });
+      }
+
+      document.getElementById('govBudgetCap').addEventListener('change', renderGovTable);
+      document.getElementById('govTargetCpa').addEventListener('change', renderGovTable);
+
+      document.getElementById('addChannelRowBtn').addEventListener('click', function () {
+        const factor = currentCurrency === 'USD' ? 0.012 : 1;
+        govChannels.push({
+          name: 'New Channel Pod #' + (govChannels.length + 1),
+          spend: Math.round(120000 * factor),
+          rev: Math.round(480000 * factor),
+          cust: 55,
+          ctr: 1.4
+        });
+        renderGovTable();
+      });
+
+      document.getElementById('printGovBtn').addEventListener('click', function () {
+        window.print();
+      });
+
+      // Initialize all 4 interactive workbench modules on load
+      recalcCac();
+      recalcRoas();
+      renderScorecard();
+      renderGovTable();
+    })();
   </script>
 </body>
 </html>
