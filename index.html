@@ -105,7 +105,7 @@
         "name": "Apex Pragmatika",
         "legalName": "Vrchasv",
         "url": "https://apexpragmatika.com/",
-        "email": "surya@apexpragmatika.com",
+        "email": "n.surya.narayanan@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Bengaluru",
@@ -2514,7 +2514,7 @@
 
     <div class="mobile-drawer-footer">
       <div class="mobile-drawer-direct">
-        <a href="mailto:surya@apexpragmatika.com" data-outbound-channel="email">surya@apexpragmatika.com</a>
+        <a href="mailto:n.surya.narayanan@gmail.com" data-outbound-channel="email">n.surya.narayanan@gmail.com</a>
         <a href="https://cal.com/surya-narayanan-vrchasv/30min" target="_blank" rel="noopener noreferrer" data-outbound-channel="cal_com">cal.com/30min ↗</a>
       </div>
       <a href="https://cal.com/surya-narayanan-vrchasv/30min"
@@ -3910,8 +3910,8 @@
                 <div class="channel-item">
                   <span class="channel-label">Direct Executive Email</span>
                   <div>
-                    <a href="mailto:surya@apexpragmatika.com" class="channel-value" data-outbound-channel="email">surya@apexpragmatika.com</a>
-                    <button type="button" class="copy-email-btn" id="copyEmailBtn" aria-label="Copy surya@apexpragmatika.com">Copy</button>
+                    <a href="mailto:n.surya.narayanan@gmail.com" class="channel-value" data-outbound-channel="email">n.surya.narayanan@gmail.com</a>
+                    <button type="button" class="copy-email-btn" id="emailBtn" aria-label="email">Copy</button>
                   </div>
                 </div>
                 <div class="channel-item">
@@ -3930,7 +3930,7 @@
               <span class="eyebrow" style="margin-bottom: 6px;">Async Executive Brief</span>
               <h3 style="font-size: 1.25rem;">Send a Structured P&amp;L Context Note</h3>
               <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; margin-bottom: 16px;">
-                Prefer writing first? Share your context below to generate a direct executive brief to <strong>surya@apexpragmatika.com</strong>.
+                Prefer writing first? Share your context below to generate a direct executive brief to <strong>n.surya.narayanan@gmail.com</strong>.
               </p>
 
               <form id="ownerBriefForm" data-clarity-mask="true">
@@ -4045,7 +4045,7 @@
         <span>© 2026 <strong style="color: var(--text-white);">Apex Pragmatika</strong> (a consulting practice of <strong style="color: var(--text-white);">Vrchasv</strong>) · Surya Narayanan · Bengaluru, India.</span>
       </div>
       <div class="footer-links">
-        <a href="mailto:surya@apexpragmatika.com" data-outbound-channel="email">surya@apexpragmatika.com</a>
+        <a href="mailto:n.surya.narayanan@gmail.com" data-outbound-channel="email">n.surya.narayanan@gmail.com</a>
         <a href="https://www.linkedin.com/in/nsuryanarayanan/" target="_blank" rel="noopener noreferrer" data-outbound-channel="linkedin">LinkedIn</a>
         <a href="#privacy-modal" id="openPrivacyModalLink">Privacy Policy (DPDP Act 2023)</a>
         <a href="#privacy-modal" id="openTermsModalLink">Terms &amp; Disclosures</a>
@@ -4120,7 +4120,7 @@
         <div>
           <h4>4. Personal Data Processing &amp; Grievance Officer</h4>
           <p>
-            When you voluntarily schedule a 30-minute diagnostic via Cal.com or send an executive brief to <strong>surya@apexpragmatika.com</strong>, your name, business email, and inquiry context are used solely to respond to your consultation request. We never sell or trade contact lists. Data Fiduciary &amp; Grievance Officer: <strong>Surya Narayanan, Proprietor — Vrchasv (operating Apex Pragmatika), Bengaluru, Karnataka, India</strong> (<a href="mailto:surya@apexpragmatika.com" style="color: var(--accent-amber);">surya@apexpragmatika.com</a>).
+            When you voluntarily schedule a 30-minute diagnostic via Cal.com or send an executive brief to <strong>n.surya.narayanan@gmail.com</strong>, your name, business email, and inquiry context are used solely to respond to your consultation request. We never sell or trade contact lists. Data Fiduciary &amp; Grievance Officer: <strong>Surya Narayanan, Proprietor — Vrchasv (operating Apex Pragmatika), Bengaluru, Karnataka, India</strong> (<a href="mailto:n.surya.narayanan@gmail.com" style="color: var(--accent-amber);">n.surya.narayanan@gmail.com</a>).
           </p>
         </div>
 
@@ -4436,20 +4436,20 @@
       });
 
       // Contact Hub: One-Click Copy Email & Structured Owner Brief Form
-      const copyEmailBtn = document.getElementById('copyEmailBtn');
-      if (copyEmailBtn) {
-        copyEmailBtn.addEventListener('click', function () {
+      const emailBtn = document.getElementById('emailBtn');
+      if (emailBtn) {
+        emailBtn.addEventListener('click', function () {
           const ta = document.createElement('textarea');
-          ta.value = 'surya@apexpragmatika.com';
+          ta.value = 'n.surya.narayanan@gmail.com';
           ta.style.position = 'fixed';
           ta.style.opacity = '0';
           document.body.appendChild(ta);
           ta.select();
           document.execCommand('copy');
           document.body.removeChild(ta);
-          copyEmailBtn.textContent = 'Copied ✓';
+          emailBtn.textContent = 'Copied ✓';
           window.trackOwnerSignal('outbound_channel_click', { channel: 'email_copied' });
-          setTimeout(function () { copyEmailBtn.textContent = 'Copy'; }, 2500);
+          setTimeout(function () { emailBtn.textContent = 'Copy'; }, 2500);
         });
       }
 
@@ -4474,7 +4474,7 @@
       if (copyFormattedBriefBtn) {
         copyFormattedBriefBtn.addEventListener('click', function () {
           const formatted = buildFormattedOwnerBrief();
-          const fullText = 'To: surya@apexpragmatika.com\nSubject: ' + formatted.subject + '\n\n' + formatted.body;
+          const fullText = 'To: n.surya.narayanan@gmail.com\nSubject: ' + formatted.subject + '\n\n' + formatted.body;
           const ta = document.createElement('textarea');
           ta.value = fullText;
           ta.style.position = 'fixed';
@@ -4484,7 +4484,7 @@
           document.execCommand('copy');
           document.body.removeChild(ta);
           const statusEl = document.getElementById('briefFormStatus');
-          statusEl.textContent = '✓ Formatted executive brief copied to clipboard — paste into Gmail or any mail app to surya@apexpragmatika.com.';
+          statusEl.textContent = '✓ Formatted executive brief copied to clipboard — paste into Gmail or any mail app to n.surya.narayanan@gmail.com.';
           window.trackOwnerSignal('contact_brief_copied', { engagement_track: document.getElementById('briefTrack').value });
         });
       }
@@ -4502,7 +4502,7 @@
 
           const statusEl = document.getElementById('briefFormStatus');
           statusEl.textContent = '✓ Executive brief formatted — launching your mail client (or use Copy Formatted Brief below for webmail)...';
-          window.location.href = 'mailto:surya@apexpragmatika.com?subject=' + encodeURIComponent(formatted.subject) + '&body=' + encodeURIComponent(formatted.body);
+          window.location.href = 'mailto:n.surya.narayanan@gmail.com?subject=' + encodeURIComponent(formatted.subject) + '&body=' + encodeURIComponent(formatted.body);
         });
       }
 
